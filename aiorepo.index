@@ -1,0 +1,228 @@
+[
+{
+ "file": "apps-widget.lua",
+ "name": "My apps",
+ "type": "widget",
+ "version": "1.0",
+ "author": "Andrey Gavrilov",
+ "md5sum": "f3ec46ea88feb490dadb60cc75d07d03"
+},
+{
+ "file": "bdpn-search.lua",
+ "name": "Мобильный оператор",
+ "description": "Cкрипт отображает мобильного оператора по номеру телефона",
+ "data_source": "http://rosreestr.subnets.ru/",
+ "type": "search",
+ "lang": "ru",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "7f6dc77d9e62b119161081f4d51fdf4f"
+},
+{
+ "file": "btc-widget.lua",
+ "name": "Bitcoin price",
+ "description": "Current Bitcoin price (blockchain.info)",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "52f4ca3266d02191126b443742641e19"
+},
+{
+ "file": "calllog-ru-root-widget.lua",
+ "name": "История вызовов",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "lang": "ru",
+ "root": "true",
+ "md5sum": "d709da8825ec9534e5452add6a79aa93"
+},
+{
+ "file": "cloud-file-explorer.lua",
+ "name": "File Explorer",
+ "type": "widget",
+ "version": "1.0",
+ "author": "Andrey Gavrilov",
+ "aio_version": "4.0.9",
+ "md5sum": "4febcc8800fc3b5d248d8eb5db96ded2"
+},
+{
+ "file": "conversations-widget.lua",
+ "name": "Conversations",
+ "description": "Dialogs AIO widget analog",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "e95054c2667708db37f07f5d3dea44e7"
+},
+{
+ "file": "counter-widget.lua",
+ "name": "Counter",
+ "description": "Time counting widget to fight bad habits",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "2c97074dd0bda5651887907ff1c52d0c"
+},
+{
+ "file": "currencies-widget.lua",
+ "name": "Currencies",
+ "description": "Currency rates widget. Click on the date to change it.",
+ "data_source": "github.com/fawazahmed0/currency-api#readme",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "970433522b54a5dc2145b02db300f34d"
+},
+{
+ "file": "currency-cbr-search.lua",
+ "name": "Курс валют ЦБ",
+ "description": "Cкрипт отображает курс валюты ЦБ России на заданную дату (usd 30 3 22)",
+ "data_source": "https://www.cbr.ru/",
+ "type": "search",
+ "lang": "ru",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "03966044c9150d5f24e2bc6774a35876"
+},
+{
+ "file": "currency-widget-ru.lua",
+ "name": "Курс валюты",
+ "description": "Виджет курса валюты. Нажмите на виджет, чтобы изменить валюту. Базовая валюта и дата меняются в контекстном меню.",
+ "data_source": "https://exchangerate.host/",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "2.0",
+ "language": "ru",
+ "md5sum": "570cfe44e310fdafcbe388cccecb5d3e"
+},
+{
+ "file": "dad-jokes-widget.lua",
+ "name": "Dad jokes",
+ "description": "icanhazdadjoke.com",
+ "type": "widget",
+ "author": "me",
+ "version": "1.0",
+ "md5sum": "b882dc72077e31229cd37793b486bc1e"
+},
+{
+ "file": "fifteen-widget.lua",
+ "name": "15 Puzzle",
+ "description": "15 game",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "5cf87033bd7d2999caf361dc3957afe3"
+},
+{
+ "file": "google-translate-widget.lua",
+ "name": "Google Translate",
+ "data_source": "https://translate.google.com",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.1",
+ "md5sum": "ccac6532b1d9e7ce091eb852603341a3"
+},
+{
+ "file": "horoscope-widget.lua",
+ "name": "Horoscope",
+ "type": "widget",
+ "version": "1.0",
+ "author": "Andrey Gavrilov",
+ "md5sum": "8caa42e96f932ce595d6f3bfe350067e"
+},
+{
+ "file": "icndb-translate-widget.lua",
+ "name": "Chuck Norris translated",
+ "description": "Jokes with translation",
+ "data_source": "icndb.com",
+ "type": "widget",
+ "author": "Alexander Ivanitsa (griva99@gmail.com)",
+ "version": "1.0",
+ "md5sum": "7a048c29f3def6938a415a2844bc1b7f"
+},
+{
+ "file": "net-file.lua",
+ "name": "Network file",
+ "description": "Shows file contents by url",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "fd467b0a1a21dc0e7a7102d4166c2fbc"
+},
+{
+ "file": "notes-widget.lua",
+ "name": "Notes",
+ "description": "Notes widget",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "f3b980f2393a440a465694d93010bb62"
+},
+{
+ "file": "period_progress.lua",
+ "name": "Period progress",
+ "description": "Shows period progress",
+ "type": "widget",
+ "author": "Nikolai Galashev",
+ "version": "1.0",
+ "md5sum": "33914e5b0b5f87005066419e91a41e68"
+},
+{
+ "file": "random-joke-widget.lua",
+ "name": "Random jokes",
+ "description": "official-joke-api.appspot.com",
+ "data_source": "official-joke-api.appspot.com",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "34a0e3d239cf9f9ff222b5302e2501a7"
+},
+{
+ "file": "region-search-ru.lua",
+ "name": "Автомобильные коды",
+ "description": "Поиск по кодам автомобильных номеров России",
+ "lang": "ru",
+ "type": "search",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "1ba707721c2d470a2f52de5547b722f3"
+},
+{
+ "file": "rss-widget.lua",
+ "name": "News",
+ "description": "Simple RSS news widget",
+ "data_source": "https://rss-to-json-serverless-api.vercel.app/",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "9f3907ff28d528324e963f9ce4d1ce1c"
+},
+{
+ "file": "starpage-search.lua",
+ "name": "StartPage",
+ "description": "StarPage search engine suggestions script",
+ "data_source": "www.startpage.com",
+ "type": "search",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "27e68516b5d99b7be1f06b268b3081ec"
+},
+{
+ "file": "sudoku-widget.lua",
+ "name": "Sudoku",
+ "description": "Sudoku games",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "d10c9cf7c01d30953562363dfb3761c7"
+},
+{
+ "file": "tvguide-ru-widget.lua",
+ "name": "ТВ-Программа",
+ "description": "Программа передач россиийского ТВ",
+ "type": "widget",
+ "version": "1.0",
+ "lang": "ru",
+ "author": "Andrey Gavrilov",
+ "md5sum": "0bf59a34b63dfa76b642e39cd5fd5ee3"
+}
+]
