@@ -211,16 +211,6 @@
  "md5sum": "3788f437a5fbc76590f7c98c61ca984c"
 },
 {
- "file": "region-search-ru.lua",
- "name": "Автомобильные коды",
- "description": "Поиск по кодам автомобильных номеров России",
- "lang": "ru",
- "type": "search",
- "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "version": "1.0",
- "md5sum": "3788f437a5fbc76590f7c98c61ca984c"
-},
-{
  "file": "rss-widget.lua",
  "name": "News",
  "description": "Simple RSS news widget",
