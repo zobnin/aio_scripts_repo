@@ -2,10 +2,11 @@
 {
  "file": "apps-widget.lua",
  "name": "My apps",
+ "description": "Simple apps widget",
  "type": "widget",
  "version": "1.0",
  "author": "Andrey Gavrilov",
- "md5sum": "f3ec46ea88feb490dadb60cc75d07d03"
+ "md5sum": "6f08726d1afc280e0edb7222dbba9cf5"
 },
 {
  "file": "bdpn-search.lua",
@@ -30,29 +31,31 @@
 {
  "file": "calllog-ru-root-widget.lua",
  "name": "История вызовов",
+ "description": "Скрипт показывает историю вызов через прямое чтение базы звонков",
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "lang": "ru",
  "root": "true",
- "md5sum": "d709da8825ec9534e5452add6a79aa93"
+ "md5sum": "2cf3310c3b74224081c64a1ae3aa3d46"
 },
 {
- "file": "cloud-file-explorer.lua",
+ "file": "cloud-file-widget.lua",
  "name": "File Explorer",
+ "description": "Dropbox file explorer. Shows only AIO Launcher subdirectory",
  "type": "widget",
  "version": "1.0",
  "author": "Andrey Gavrilov",
  "aio_version": "4.0.9",
- "md5sum": "4febcc8800fc3b5d248d8eb5db96ded2"
+ "md5sum": "d3b74989dcfb32d46632ba901e4e3ac8"
 },
 {
  "file": "conversations-widget.lua",
  "name": "Conversations",
- "description": "Dialogs AIO widget analog",
+ "description": "Dialogs widget anologue",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "e95054c2667708db37f07f5d3dea44e7"
+ "md5sum": "45d0dcc03b9cba00e4d9ec26dd27f2b9"
 },
 {
  "file": "counter-widget.lua",
@@ -92,8 +95,8 @@
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "2.0",
- "language": "ru",
- "md5sum": "570cfe44e310fdafcbe388cccecb5d3e"
+ "lang": "ru",
+ "md5sum": "347e40b3e6aa8a84ecdfeabd0d9c6b5a"
 },
 {
  "file": "dad-jokes-widget.lua",
@@ -107,11 +110,11 @@
 {
  "file": "fifteen-widget.lua",
  "name": "15 Puzzle",
- "description": "15 game",
+ "description": "Game",
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.0",
- "md5sum": "5cf87033bd7d2999caf361dc3957afe3"
+ "md5sum": "117be1250074a71471f8eb929060ad47"
 },
 {
  "file": "google-translate-widget.lua",
@@ -125,10 +128,11 @@
 {
  "file": "horoscope-widget.lua",
  "name": "Horoscope",
+ "description": "Horoscope for a given day",
  "type": "widget",
  "version": "1.0",
  "author": "Andrey Gavrilov",
- "md5sum": "8caa42e96f932ce595d6f3bfe350067e"
+ "md5sum": "b677cb53b5454fee93427d5798804ebf"
 },
 {
  "file": "icndb-translate-widget.lua",
@@ -141,12 +145,12 @@
  "md5sum": "7a048c29f3def6938a415a2844bc1b7f"
 },
 {
- "file": "net-file.lua",
+ "file": "net-file-widget.lua",
  "name": "Network file",
- "description": "Shows file contents by url",
+ "description": "Shows the contents of any file on the Internet",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "fd467b0a1a21dc0e7a7102d4166c2fbc"
+ "md5sum": "bde111e5c46e9905e7137d90a5f8c924"
 },
 {
  "file": "notes-widget.lua",
@@ -158,13 +162,33 @@
  "md5sum": "f3b980f2393a440a465694d93010bb62"
 },
 {
- "file": "period_progress.lua",
+ "file": "period-progress-widget.lua",
  "name": "Period progress",
  "description": "Shows period progress",
  "type": "widget",
  "author": "Nikolai Galashev",
  "version": "1.0",
  "md5sum": "33914e5b0b5f87005066419e91a41e68"
+},
+{
+ "file": "public-ip-search.lua",
+ "name": "Public IP",
+ "description": "Shows your public IP in the search bar",
+ "data_source": "ipify.org",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "md5sum": "6c8197d1b077541d0b24eeb0ebf4e9ea"
+},
+{
+ "file": "qr-code-search.lua",
+ "name": "QR Code",
+ "description": "Turn any text or url into QR code",
+ "data_source": "https://api.qrserver.com/v1/",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "md5sum": "69d494f09646b7caf62e6a2472d72342"
 },
 {
  "file": "random-joke-widget.lua",
@@ -177,6 +201,16 @@
  "md5sum": "34a0e3d239cf9f9ff222b5302e2501a7"
 },
 {
+ "file": "region-ru-search.lua",
+ "name": "Автомобильные коды",
+ "description": "Поиск по кодам автомобильных номеров России",
+ "lang": "ru",
+ "type": "search",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "3788f437a5fbc76590f7c98c61ca984c"
+},
+{
  "file": "region-search-ru.lua",
  "name": "Автомобильные коды",
  "description": "Поиск по кодам автомобильных номеров России",
@@ -184,7 +218,7 @@
  "type": "search",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "1ba707721c2d470a2f52de5547b722f3"
+ "md5sum": "3788f437a5fbc76590f7c98c61ca984c"
 },
 {
  "file": "rss-widget.lua",
@@ -194,7 +228,17 @@
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.0",
- "md5sum": "9f3907ff28d528324e963f9ce4d1ce1c"
+ "md5sum": "2d511a6ecd6955817d4c7799d3565290"
+},
+{
+ "file": "share-menu-search.lua",
+ "name": "Share Text",
+ "description": "Share text with other apps",
+ "data_source": "internal",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "md5sum": "1457758e97b6b633833a89c00ce91fb8"
 },
 {
  "file": "starpage-search.lua",
@@ -210,10 +254,10 @@
  "file": "sudoku-widget.lua",
  "name": "Sudoku",
  "description": "Sudoku games",
- "type": "widget",
+ "type": "Game",
  "author": "Andrey Gavrilov",
  "version": "1.0",
- "md5sum": "d10c9cf7c01d30953562363dfb3761c7"
+ "md5sum": "a262ec40437f118f4f8c30ebc0525cb5"
 },
 {
  "file": "tvguide-ru-widget.lua",
