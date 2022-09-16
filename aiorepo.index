@@ -88,6 +88,17 @@
  "md5sum": "03966044c9150d5f24e2bc6774a35876"
 },
 {
+ "file": "currency-search.lua",
+ "name": "Exchange rates",
+ "description": "Shows currency rate by code",
+ "data_source": "https://api.exchangerate.host",
+ "type": "search",
+ "author": "Evgeny Zobbin & Andrey Gavrilov",
+ "version": "1.0",
+ "curl -s -XGET 'https://api.exchangerate.host/symbols?format": csv' | cut -d ',' -f 2 | grep -v code | sed 's/$/,/' | tr '\n' ' ',
+ "md5sum": "718602943275e198cf26662fe1b1b12b"
+},
+{
  "file": "currency-widget-ru.lua",
  "name": "Курс валюты",
  "description": "Виджет курса валюты. Нажмите на виджет, чтобы изменить валюту. Базовая валюта и дата меняются в контекстном меню.",
@@ -115,6 +126,16 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "117be1250074a71471f8eb929060ad47"
+},
+{
+ "file": "google-translate-search.lua",
+ "name": "Google Translate",
+ "description": "A search script that shows the translation of what you type in the search window",
+ "data_source": "translate.google.com",
+ "type": "search",
+ "author": "Evgeny Zobnin",
+ "version": "1.0",
+ "md5sum": "f8e95c81302127614d777463665d6c01"
 },
 {
  "file": "google-translate-widget.lua",
@@ -145,6 +166,17 @@
  "md5sum": "7a048c29f3def6938a415a2844bc1b7f"
 },
 {
+ "file": "maps-navigate.lua",
+ "name": "Navigate",
+ "description": "Navigate to address",
+ "data_source": "internal",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "prefix": "navigate",
+ "md5sum": "70f012e84f94baf3b001fbda78a19c1e"
+},
+{
  "file": "net-file-widget.lua",
  "name": "Network file",
  "description": "Shows the contents of any file on the Internet",
@@ -162,6 +194,14 @@
  "md5sum": "f3b980f2393a440a465694d93010bb62"
 },
 {
+ "file": "password-gen-search.lua",
+ "name": "Password generator",
+ "description": "30-character password generator",
+ "type": "search",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "md5sum": "77e6c988ea83dacfc9bdd6fb9fbe2e4b"
+},
+{
  "file": "period-progress-widget.lua",
  "name": "Period progress",
  "description": "Shows period progress",
@@ -171,6 +211,17 @@
  "md5sum": "33914e5b0b5f87005066419e91a41e68"
 },
 {
+ "file": "play-store-search.lua",
+ "name": "Play Store",
+ "description": "Search anything in playstore app",
+ "data_source": "internal",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "prefix": "playstore|play|appstore|store",
+ "md5sum": "da42ff0c9dcca4f5f6c0410474e99380"
+},
+{
  "file": "public-ip-search.lua",
  "name": "Public IP",
  "description": "Shows your public IP in the search bar",
@@ -178,7 +229,8 @@
  "type": "search",
  "author": "Sriram SV",
  "version": "1.0",
- "md5sum": "6c8197d1b077541d0b24eeb0ebf4e9ea"
+ "prefix": "ip",
+ "md5sum": "b0b6e7ce569065f0ba97cb8d06acfa85"
 },
 {
  "file": "qr-code-search.lua",
@@ -188,7 +240,8 @@
  "type": "search",
  "author": "Sriram SV",
  "version": "1.0",
- "md5sum": "69d494f09646b7caf62e6a2472d72342"
+ "prefix": "qr",
+ "md5sum": "018a5e14111da772795c276db494dee7"
 },
 {
  "file": "random-joke-widget.lua",
@@ -228,7 +281,8 @@
  "type": "search",
  "author": "Sriram SV",
  "version": "1.0",
- "md5sum": "1457758e97b6b633833a89c00ce91fb8"
+ "prefix": "share",
+ "md5sum": "4763a4857599c450c8faae69d5718256"
 },
 {
  "file": "starpage-search.lua",
@@ -250,6 +304,20 @@
  "md5sum": "a262ec40437f118f4f8c30ebc0525cb5"
 },
 {
+ "file": "tasker-widget-control.lua",
+ "name": "Tasker Widget Control",
+ "description": "Add or Remove widgets from Tasker",
+ "data_source": "internal",
+ "type": "widget",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "cmd:script:*:add": :=<widget_name>,
+ "cmd:script:*:remove": :=<widget_name>,
+ "adb shell am broadcast -a ru.execbit.aiolauncher.COMMAND --es cmd "script:tasker widget control:add": :=<widget_name>" --es password <password>,
+ "adb shell am broadcast -a ru.execbit.aiolauncher.COMMAND --es cmd "script:tasker widget control:remove": :=<widget_name>" --es password <password>,
+ "md5sum": "63d529589c91193aa3f353009320f445"
+},
+{
  "file": "tvguide-ru-widget.lua",
  "name": "ТВ-Программа",
  "description": "Программа передач россиийского ТВ",
@@ -258,5 +326,27 @@
  "lang": "ru",
  "author": "Andrey Gavrilov",
  "md5sum": "0bf59a34b63dfa76b642e39cd5fd5ee3"
+},
+{
+ "file": "what-to-do-widget.lua",
+ "name": "What to do?",
+ "description": "Let's find you something to do",
+ "data_source": "https://www.boredapi.com/",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "ecf4368293946be8695c0cd11c4746ef"
+},
+{
+ "file": "youtube-widget.lua",
+ "name": "Youtube",
+ "description": "Search anything in youtube app",
+ "data_source": "internal",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "prefix": "youtube|yt",
+ "md5sum": "c6639b69b32981267d5ed5c94102ed14"
 }
 ]
