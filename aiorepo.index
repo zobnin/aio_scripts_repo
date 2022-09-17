@@ -166,6 +166,16 @@
  "md5sum": "70f012e84f94baf3b001fbda78a19c1e"
 },
 {
+ "file": "navigate-search.lua",
+ "name": "Navigate",
+ "description": "Navigate to address",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "prefix": "navigate|nav",
+ "md5sum": "d74dcf27756b41a35823d2de3efc5c39"
+},
+{
  "file": "net-file-widget.lua",
  "name": "Network file",
  "description": "Shows the contents of any file on the Internet",
@@ -202,12 +212,12 @@
 {
  "file": "play-store-search.lua",
  "name": "Play Store",
- "description": "Search anything in playstore app",
+ "description": "Search anything in Play Store app",
  "type": "search",
  "author": "Sriram SV",
  "version": "1.0",
- "prefix": "playstore|play|appstore|store",
- "md5sum": "da42ff0c9dcca4f5f6c0410474e99380"
+ "prefix": "store|ps",
+ "md5sum": "8c61dbdd163d8ef7c0925f3c4f2b419a"
 },
 {
  "file": "public-ip-search.lua",
@@ -216,8 +226,7 @@
  "type": "search",
  "author": "Sriram SV",
  "version": "1.0",
- "prefix": "ip",
- "md5sum": "b0b6e7ce569065f0ba97cb8d06acfa85"
+ "md5sum": "6c8197d1b077541d0b24eeb0ebf4e9ea"
 },
 {
  "file": "qr-code-search.lua",
@@ -313,6 +322,16 @@
  "version": "1.0",
  "foldable": "false",
  "md5sum": "ecf4368293946be8695c0cd11c4746ef"
+},
+{
+ "file": "youtube-search.lua",
+ "name": "Youtube",
+ "description": "Search anything in youtube app",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "prefix": "youtube|yt",
+ "md5sum": "c6639b69b32981267d5ed5c94102ed14"
 },
 {
  "file": "youtube-widget.lua",
