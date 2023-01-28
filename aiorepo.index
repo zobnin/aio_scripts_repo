@@ -273,7 +273,7 @@
  "type": "search",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "27e68516b5d99b7be1f06b268b3081ec"
+ "md5sum": "a97a8ce4f8e1309855a17d74b458e861"
 },
 {
  "file": "sudoku-widget.lua",
@@ -283,6 +283,26 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "a262ec40437f118f4f8c30ebc0525cb5"
+},
+{
+ "file": "sunrise-sunset-widget.lua",
+ "name": "Sunrise/Sunset",
+ "description": "Shows Sunrise Sunset at your location",
+ "type": "widget",
+ "author": "Sriram S V",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "2e06ba3663c8c65a22892da759180dce"
+},
+{
+ "file": "tasker-command-search.lua",
+ "name": "Tasker Command Search",
+ "description": "Sends tasker command from search bar",
+ "type": "search",
+ "author": "Sriram SV",
+ "version": "1.0",
+ "prefix": "tasker | Tasker | command",
+ "md5sum": "258ce26b1c9877e756efdb37ca6fdef5"
 },
 {
  "file": "tasker-widget-control.lua",
