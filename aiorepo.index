@@ -28,6 +28,14 @@
  "md5sum": "52f4ca3266d02191126b443742641e19"
 },
 {
+ "file": "calendar-search.lua",
+ "name": "Calendar",
+ "description": "Calendar search script",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "type": "search",
+ "md5sum": "b73c7167384b1870490796ea7ba69961"
+},
+{
  "file": "calllog-ru-root-widget.lua",
  "name": "История вызовов",
  "description": "Скрипт показывает историю вызов через прямое чтение базы звонков",
@@ -63,6 +71,15 @@
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
  "md5sum": "2c97074dd0bda5651887907ff1c52d0c"
+},
+{
+ "file": "country-search.lua",
+ "name": "Country",
+ "description": "Search country by code or name",
+ "type": "search",
+ "version": "1.0",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "md5sum": "4b8f34ecaa2bde5ad841ae116da543b3"
 },
 {
  "file": "currencies-widget.lua",
@@ -312,6 +329,15 @@
  "author": "Sriram SV",
  "version": "1.0",
  "md5sum": "63d529589c91193aa3f353009320f445"
+},
+{
+ "file": "todoist-widget.lua",
+ "type": "widget",
+ "name": "Todoist",
+ "description": "Integration with Todoist",
+ "author": "Timo Peters & Andrey Gavrilov",
+ "version": "2.3",
+ "md5sum": "a8459fa7b9679b797b9b9bb5fa66697c"
 },
 {
  "file": "tvguide-ru-widget.lua",
