@@ -155,15 +155,6 @@
  "md5sum": "ccac6532b1d9e7ce091eb852603341a3"
 },
 {
- "file": "horoscope-widget.lua",
- "name": "Horoscope",
- "description": "Horoscope for a given day",
- "type": "widget",
- "version": "1.0",
- "author": "Andrey Gavrilov",
- "md5sum": "b677cb53b5454fee93427d5798804ebf"
-},
-{
  "file": "icndb-translate-widget.lua",
  "name": "Chuck Norris translated",
  "description": "Jokes with translation",
