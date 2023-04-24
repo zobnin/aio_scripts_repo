@@ -12,7 +12,7 @@ Get-ChildItem -Filter "*.lua" | ForEach-Object {
             $matches = [regex]::Matches($_, '^--\s*([a-zA-Z]*)\s*=')
             $key = $matches[0].Groups[1].Value
             $value = $_ -replace '^--\s*[a-zA-Z]*\s*=\s*', ''
-            Write-Output "`"$key`": `"$value`","
+            Write-Output "`"$key`": $value,"
         }
     }
     Write-Output "`"md5sum`": `"$(Get-FileHash $_.FullName -Algorithm MD5 | Select-Object -ExpandProperty Hash)`""
