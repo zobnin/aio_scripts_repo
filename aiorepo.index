@@ -164,6 +164,14 @@
  "md5sum": "7a048c29f3def6938a415a2844bc1b7f"
 },
 {
+ "file": "meta-widget.lua",
+ "name": "Meta widget",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "aa8212b72dfd104276e187399a1914f6"
+},
+{
  "file": "navigate-search.lua",
  "name": "Navigate",
  "description": "Navigate to address",
