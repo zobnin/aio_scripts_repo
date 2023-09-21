@@ -306,9 +306,9 @@
  "name": "Settings menu",
  "description": "Side menu with AIO settings",
  "type": "drawer",
- "author": "Evgeny Zobnin (zobnin@gmail.com),
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "4bf32f7a7cbc646849ad8a57d5612934"
+ "md5sum": "e4128a71b1b2577263cd2d4b96d79cc3"
 },
 {
  "file": "share-menu-search.lua",
