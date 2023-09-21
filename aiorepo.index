@@ -1,5 +1,14 @@
 [
 {
+ "file": "actions-menu.lua",
+ "name": "Actions menu",
+ "description": "Shows aio launcher actions",
+ "type": "drawer",
+ "author": "Evgeny Zobnin",
+ "version": "1.0",
+ "md5sum": "227f7fef5806e4eadceca7ef3a0dd7b6"
+},
+{
  "file": "apps-widget.lua",
  "name": "My apps",
  "description": "Simple apps widget",
@@ -7,6 +16,16 @@
  "version": "1.0",
  "author": "Andrey Gavrilov",
  "md5sum": "6f08726d1afc280e0edb7222dbba9cf5"
+},
+{
+ "file": "arm-ru-abc-widget.lua",
+ "name": "Армянский алфавит",
+ "description": "Армянский алфавит с транскрипцией",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "lang": "ru",
+ "md5sum": "221f1ef303b0268dadac817325561d2c"
 },
 {
  "file": "bdpn-search.lua",
@@ -172,6 +191,16 @@
  "md5sum": "aa8212b72dfd104276e187399a1914f6"
 },
 {
+ "file": "monitor-lite-widget.lua",
+ "name": "Monitor",
+ "description": "One line monitor widget",
+ "type": "widget",
+ "foldable": "false",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "e17fa9f7bf1ff199ad9bb89787122e9b"
+},
+{
  "file": "navigate-search.lua",
  "name": "Navigate",
  "description": "Navigate to address",
@@ -271,6 +300,15 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "2d511a6ecd6955817d4c7799d3565290"
+},
+{
+ "file": "settings-menu.lua",
+ "name": "Settings menu",
+ "description": "Side menu with AIO settings",
+ "type": "drawer",
+ "author": "Evgeny Zobnin (zobnin@gmail.com),
+ "version": "1.0",
+ "md5sum": "4bf32f7a7cbc646849ad8a57d5612934"
 },
 {
  "file": "share-menu-search.lua",
