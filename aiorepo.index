@@ -98,7 +98,7 @@
  "type": "search",
  "version": "1.0",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "md5sum": "4b8f34ecaa2bde5ad841ae116da543b3"
+ "md5sum": "61f96d52ecd9418812a45c6d5e86572a"
 },
 {
  "file": "currencies-widget.lua",
@@ -319,15 +319,6 @@
  "version": "1.0",
  "prefix": "share",
  "md5sum": "4763a4857599c450c8faae69d5718256"
-},
-{
- "file": "starpage-search.lua",
- "name": "StartPage",
- "description": "StarPage search engine suggestions script",
- "type": "search",
- "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "version": "1.0",
- "md5sum": "a97a8ce4f8e1309855a17d74b458e861"
 },
 {
  "file": "sudoku-widget.lua",
