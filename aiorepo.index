@@ -75,14 +75,6 @@
  "md5sum": "d3b74989dcfb32d46632ba901e4e3ac8"
 },
 {
- "file": "conversations-widget.lua",
- "name": "Conversations",
- "description": "Dialogs widget anologue",
- "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "version": "1.0",
- "md5sum": "45d0dcc03b9cba00e4d9ec26dd27f2b9"
-},
-{
  "file": "counter-widget.lua",
  "name": "Counter",
  "description": "Time counting widget to fight bad habits",
