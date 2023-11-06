@@ -266,6 +266,15 @@
  "md5sum": "018a5e14111da772795c276db494dee7"
 },
 {
+ "file": "quickactions-widget.lua",
+ "name": "Quick Actions",
+ "description": "Launcher selected actions widget",
+ "type": "widget",
+ "author": "Theodor Galanis",
+ "version": "1.0",
+ "md5sum": "4c6474f06b32d47f3456e3a7ede600db"
+},
+{
  "file": "random-joke-widget.lua",
  "name": "Random jokes",
  "description": "official-joke-api.appspot.com",
