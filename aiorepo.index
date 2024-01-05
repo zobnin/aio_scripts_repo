@@ -66,15 +66,6 @@
  "md5sum": "2cf3310c3b74224081c64a1ae3aa3d46"
 },
 {
- "file": "chatgpt-search.lua",
- "name": "ChatGPT",
- "description": "A search script that allows you to task with ChatGPT",
- "type": "search",
- "author": "Evgeny Zobnin",
- "version": "1.0",
- "md5sum": "9fff5f72910e24c99828ee029bb63f94"
-},
-{
  "file": "cloud-file-widget.lua",
  "name": "File Explorer",
  "description": "Dropbox file explorer. Shows only AIO Launcher subdirectory",
