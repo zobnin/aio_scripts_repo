@@ -9,6 +9,16 @@
  "md5sum": "227f7fef5806e4eadceca7ef3a0dd7b6"
 },
 {
+ "file": "amdroid-nextalarm-app-widget.lua",
+ "name": "Amdroid Next Alarm",
+ "description": "AIO wrapper for the Amdroid next alarm app widget",
+ "type": "widget",
+ "author": "Theodor Galanis",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "51a143a2908703d183053c89d04cc3fc"
+},
+{
  "file": "apps-widget.lua",
  "name": "My apps",
  "description": "Simple apps widget",
@@ -64,6 +74,16 @@
  "lang": "ru",
  "root": "true",
  "md5sum": "2cf3310c3b74224081c64a1ae3aa3d46"
+},
+{
+ "file": "chrome-shortctus-app-widget.lua",
+ "name": "Chrome shortcuts",
+ "description": "AIO wrapper for the Chrome shortcuts app widget",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "1fb17e1c236451d52a9d31b2f8d9336c"
 },
 {
  "file": "cloud-file-widget.lua",
@@ -147,6 +167,24 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "117be1250074a71471f8eb929060ad47"
+},
+{
+ "file": "google-search-app-widget.lua",
+ "name": "Google search",
+ "description": "AIO wrapper for the Google search app widget",
+ "type": "widget",
+ "author": "Theodor Galanis",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "7af5fa20c6c87dd4b8f04f432ad958e0"
+},
+{
+ "file": "google-tasks-app-widget.lua",
+ "name": "Google Tasks",
+ "description": "AIO wrapper for the official Google Tasks app widget",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "md5sum": "5cac401102ad43ee604828c3ab3340f2"
 },
 {
  "file": "google-translate-search.lua",
@@ -359,6 +397,14 @@
  "author": "Sriram SV",
  "version": "1.0",
  "md5sum": "63d529589c91193aa3f353009320f445"
+},
+{
+ "file": "todoist-app-widget.lua",
+ "name": "Todoist",
+ "description": "AIO wrapper for the official Todoist app widget",
+ "type": "widget",
+ "author": "Andey Gavrilov",
+ "md5sum": "b01062fb14a4bff7cb492bd06b3cc2a1"
 },
 {
  "file": "todoist-widget.lua",
