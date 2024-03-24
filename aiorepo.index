@@ -407,15 +407,6 @@
  "md5sum": "b01062fb14a4bff7cb492bd06b3cc2a1"
 },
 {
- "file": "todoist-widget.lua",
- "type": "widget",
- "name": "Todoist",
- "description": "Integration with Todoist",
- "author": "Timo Peters & Andrey Gavrilov",
- "version": "2.3",
- "md5sum": "a8459fa7b9679b797b9b9bb5fa66697c"
-},
-{
  "file": "tvguide-ru-widget.lua",
  "name": "ТВ-Программа",
  "description": "Программа передач россиийского ТВ",
