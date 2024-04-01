@@ -174,9 +174,9 @@
  "description": "AIO wrapper for the Google search app widget",
  "type": "widget",
  "author": "Theodor Galanis",
- "version": "1.0",
+ "version": "1.0.1",
  "foldable": "false",
- "md5sum": "7af5fa20c6c87dd4b8f04f432ad958e0"
+ "md5sum": "2123b8dd5eb36061671f7fdfaed48582"
 },
 {
  "file": "google-tasks-app-widget.lua",
@@ -340,6 +340,12 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "2d511a6ecd6955817d4c7799d3565290"
+},
+{
+ "file": "screen-state-menu.lua",
+ "name": "Screen state",
+ "type": "drawer",
+ "md5sum": "a9e955601f5807885de287b0263202e3"
 },
 {
  "file": "settings-menu.lua",
