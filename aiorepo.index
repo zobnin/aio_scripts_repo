@@ -213,6 +213,15 @@
  "md5sum": "7a048c29f3def6938a415a2844bc1b7f"
 },
 {
+ "file": "kodi-remote-widget.lua",
+ "name": "Kodi Remote",
+ "description": "Kodi multimedia center remote control widget",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.1",
+ "md5sum": "3b1b79317e7d25a3ed21f5ee6b77470a"
+},
+{
  "file": "meta-widget.lua",
  "name": "Meta widget",
  "type": "widget",
@@ -421,6 +430,15 @@
  "lang": "ru",
  "author": "Andrey Gavrilov",
  "md5sum": "0bf59a34b63dfa76b642e39cd5fd5ee3"
+},
+{
+ "file": "uptimerobot-widget.lua",
+ "name": "Uptimerobot",
+ "description": "Shows uptime information from uptimerobot.com. Needs API key.",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.1",
+ "md5sum": "1b59b26bef0fcc2081a0ffada24d85ab"
 },
 {
  "file": "what-to-do-widget.lua",
