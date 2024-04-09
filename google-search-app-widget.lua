@@ -2,7 +2,7 @@
 -- description = "AIO wrapper for the Google search app widget"
 -- type = "widget"
 -- author = "Theodor Galanis"
--- version = "1.0.1"
+-- version = "1.01"
 -- foldable = "false"
 -- uses_app: "com.google.android.googlequicksearchbox""
 
@@ -32,7 +32,7 @@ end
 
 function setup_app_widget()
     local id = widgets:setup("com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchWidgetProvider")
-
+  
   if (id ~= nil) then
         prefs.wid = id
     else

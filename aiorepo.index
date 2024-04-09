@@ -174,9 +174,9 @@
  "description": "AIO wrapper for the Google search app widget",
  "type": "widget",
  "author": "Theodor Galanis",
- "version": "1.0.1",
+ "version": "1.01",
  "foldable": "false",
- "md5sum": "2123b8dd5eb36061671f7fdfaed48582"
+ "md5sum": "c29ee2bfe4703539bf325f0a42468be2"
 },
 {
  "file": "google-tasks-app-widget.lua",
@@ -311,7 +311,7 @@
  "foldable": "true",
  "author": "Theodor Galanis",
  "version": "2.5",
- "md5sum": "97339ef2bb8f935ca7677c4177cfea37"
+ "md5sum": "fe2157efc3417474eae3aff7432a6ad9"
 },
 {
  "file": "random-joke-widget.lua",
@@ -431,6 +431,15 @@
  "version": "1.0",
  "foldable": "false",
  "md5sum": "ecf4368293946be8695c0cd11c4746ef"
+},
+{
+ "file": "widgets-on-off.lua",
+ "name": "Widgets switcher",
+ "description": "Turns screen widgets on and off when buttons are pressed",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "3.0",
+ "md5sum": "b804b0942b11758d5475b90c2bb7d618"
 },
 {
  "file": "youtube-search.lua",
