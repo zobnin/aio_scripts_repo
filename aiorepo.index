@@ -14,9 +14,9 @@
  "description": "AIO wrapper for the Amdroid next alarm app widget",
  "type": "widget",
  "author": "Theodor Galanis",
- "version": "1.0",
+ "version": "1.0.2",
  "foldable": "false",
- "md5sum": "51a143a2908703d183053c89d04cc3fc"
+ "md5sum": "ad2f704ecdca4be571d71ac0181ee274"
 },
 {
  "file": "apps-widget.lua",
