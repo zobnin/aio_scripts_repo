@@ -19,15 +19,6 @@
  "md5sum": "ad2f704ecdca4be571d71ac0181ee274"
 },
 {
- "file": "apps-widget.lua",
- "name": "My apps",
- "description": "Simple apps widget",
- "type": "widget",
- "version": "1.0",
- "author": "Andrey Gavrilov",
- "md5sum": "6f08726d1afc280e0edb7222dbba9cf5"
-},
-{
  "file": "arm-ru-abc-widget.lua",
  "name": "Армянский алфавит",
  "description": "Армянский алфавит с транскрипцией",
@@ -46,23 +37,6 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "7f6dc77d9e62b119161081f4d51fdf4f"
-},
-{
- "file": "btc-widget.lua",
- "name": "Bitcoin price",
- "description": "Current Bitcoin price (blockchain.info)",
- "type": "widget",
- "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "version": "1.0",
- "md5sum": "52f4ca3266d02191126b443742641e19"
-},
-{
- "file": "calendar-search.lua",
- "name": "Calendar",
- "description": "Calendar search script",
- "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "type": "search",
- "md5sum": "b73c7167384b1870490796ea7ba69961"
 },
 {
  "file": "calllog-ru-root-widget.lua",
@@ -84,15 +58,6 @@
  "version": "1.0",
  "foldable": "false",
  "md5sum": "1fb17e1c236451d52a9d31b2f8d9336c"
-},
-{
- "file": "cloud-file-widget.lua",
- "name": "File Explorer",
- "description": "Dropbox file explorer. Shows only AIO Launcher subdirectory",
- "type": "widget",
- "version": "1.0",
- "author": "Andrey Gavrilov",
- "md5sum": "d3b74989dcfb32d46632ba901e4e3ac8"
 },
 {
  "file": "counter-widget.lua",
@@ -204,15 +169,6 @@
  "md5sum": "ccac6532b1d9e7ce091eb852603341a3"
 },
 {
- "file": "icndb-translate-widget.lua",
- "name": "Chuck Norris translated",
- "description": "Jokes with translation",
- "type": "widget",
- "author": "Alexander Ivanitsa (griva99@gmail.com)",
- "version": "1.0",
- "md5sum": "7a048c29f3def6938a415a2844bc1b7f"
-},
-{
  "file": "kodi-remote-widget.lua",
  "name": "Kodi Remote",
  "description": "Kodi multimedia center remote control widget",
@@ -224,10 +180,11 @@
 {
  "file": "meta-widget.lua",
  "name": "Meta widget",
+ "description": "Widget of widgets",
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.0",
- "md5sum": "aa8212b72dfd104276e187399a1914f6"
+ "md5sum": "dd886eb779152bdb6f6a23319451e5e2"
 },
 {
  "file": "monitor-lite-widget.lua",
@@ -256,15 +213,6 @@
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
  "md5sum": "bde111e5c46e9905e7137d90a5f8c924"
-},
-{
- "file": "notes-widget.lua",
- "name": "Notes",
- "description": "Notes widget",
- "type": "widget",
- "author": "Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "f3b980f2393a440a465694d93010bb62"
 },
 {
  "file": "password-gen-search.lua",
@@ -342,21 +290,6 @@
  "md5sum": "3788f437a5fbc76590f7c98c61ca984c"
 },
 {
- "file": "rss-widget.lua",
- "name": "News",
- "description": "Simple RSS news widget",
- "type": "widget",
- "author": "Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "2d511a6ecd6955817d4c7799d3565290"
-},
-{
- "file": "screen-state-menu.lua",
- "name": "Screen state",
- "type": "drawer",
- "md5sum": "a9e955601f5807885de287b0263202e3"
-},
-{
  "file": "settings-menu.lua",
  "name": "Settings menu",
  "description": "Side menu with AIO settings",
@@ -383,16 +316,6 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "a262ec40437f118f4f8c30ebc0525cb5"
-},
-{
- "file": "sunrise-sunset-widget.lua",
- "name": "Sunrise/Sunset",
- "description": "Shows Sunrise Sunset at your location",
- "type": "widget",
- "author": "Sriram S V",
- "version": "1.0",
- "foldable": "false",
- "md5sum": "2e06ba3663c8c65a22892da759180dce"
 },
 {
  "file": "tasker-command-search.lua",
