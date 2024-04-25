@@ -391,5 +391,14 @@
  "version": "1.0",
  "prefix": "youtube|yt",
  "md5sum": "c6639b69b32981267d5ed5c94102ed14"
+},
+{
+ "file": "zzz-text-widget.lua",
+ "name": "Test widget",
+ "description": "Widget for testing purposes",
+ "type": "widget",
+ "author": "Tester 2000",
+ "version": "1.0",
+ "md5sum": "c7cd8aa01a5b49b9c1c15ffe9beded65"
 }
 ]
