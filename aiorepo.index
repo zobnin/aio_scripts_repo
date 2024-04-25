@@ -11,12 +11,12 @@
 {
  "file": "amdroid-nextalarm-app-widget.lua",
  "name": "Amdroid Next Alarm",
- "description": "AIO wrapper for the Amdroid next alarm app widget",
+ "description": "AIO wrapper for the Amdroid Next alarm app widget",
  "type": "widget",
- "author": "Theodor Galanis",
- "version": "1.0.2",
+ "author": "Theodor Galanis (t.me/TheodorGalanis)",
+ "version": "1.10",
  "foldable": "false",
- "md5sum": "ad2f704ecdca4be571d71ac0181ee274"
+ "md5sum": "14909ccf7a93386eba908d803b7f21ce"
 },
 {
  "file": "arm-ru-abc-widget.lua",
