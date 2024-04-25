@@ -1,0 +1,6 @@
+1.10:
+
+- Removed prefs._name from script
+- Text now correctly displayed with primary text color ( was fixed white in previous version, so it wouldnt be visible in some themes)
+- settings dialog added (just because I do not like the default one that pops up when you click on the cog of script widgets.)
+- telegram link of author added in meta so people can report bugs
