@@ -136,12 +136,12 @@
 {
  "file": "google-search-app-widget.lua",
  "name": "Google search",
- "description": "AIO wrapper for the Google search app widget",
+ "description": "AIO wrapper for the Google search app widget - open widget settings for options",
  "type": "widget",
- "author": "Theodor Galanis",
- "version": "1.01",
+ "author": "Theodor Galanis (t.me/TheodorGalanis)",
+ "version": "2.5",
  "foldable": "false",
- "md5sum": "c29ee2bfe4703539bf325f0a42468be2"
+ "md5sum": "3ce8f5d902f1ef8aa7fb2ec9fafac066"
 },
 {
  "file": "google-tasks-app-widget.lua",

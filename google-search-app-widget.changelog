@@ -1,0 +1,6 @@
+2.5
+
+- removed prefs._name from script
+- added button which opens google's weather page
+- added option to show or hide button for weather in widget settings
+- added telegram author link in meta
