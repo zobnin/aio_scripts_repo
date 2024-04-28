@@ -78,15 +78,6 @@
  "md5sum": "61f96d52ecd9418812a45c6d5e86572a"
 },
 {
- "file": "currencies-widget.lua",
- "name": "Currencies",
- "description": "Currency rates widget. Click on the date to change it.",
- "type": "widget",
- "author": "Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "970433522b54a5dc2145b02db300f34d"
-},
-{
  "file": "currency-cbr-search.lua",
  "name": "Курс валют ЦБ",
  "description": "Cкрипт отображает курс валюты ЦБ России на заданную дату (usd 30 3 22)",
@@ -95,25 +86,6 @@
  "author": "Andrey Gavrilov",
  "version": "1.0",
  "md5sum": "03966044c9150d5f24e2bc6774a35876"
-},
-{
- "file": "currency-search.lua",
- "name": "Exchange rates",
- "description": "Shows currency rate by code",
- "type": "search",
- "author": "Evgeny Zobbin & Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "718602943275e198cf26662fe1b1b12b"
-},
-{
- "file": "currency-widget-ru.lua",
- "name": "Курс валюты",
- "description": "Виджет курса валюты. Нажмите на виджет, чтобы изменить валюту. Базовая валюта и дата меняются в контекстном меню.",
- "type": "widget",
- "author": "Andrey Gavrilov",
- "version": "2.0",
- "lang": "ru",
- "md5sum": "347e40b3e6aa8a84ecdfeabd0d9c6b5a"
 },
 {
  "file": "dad-jokes-widget.lua",
@@ -312,10 +284,10 @@
  "file": "sudoku-widget.lua",
  "name": "Sudoku",
  "description": "Sudoku games",
- "type": "Game",
+ "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.0",
- "md5sum": "a262ec40437f118f4f8c30ebc0525cb5"
+ "md5sum": "d10c9cf7c01d30953562363dfb3761c7"
 },
 {
  "file": "tasker-command-search.lua",
@@ -326,15 +298,6 @@
  "version": "1.0",
  "prefix": "tasker | Tasker | command",
  "md5sum": "258ce26b1c9877e756efdb37ca6fdef5"
-},
-{
- "file": "tasker-widget-control.lua",
- "name": "Tasker Widget Control",
- "description": "Add or Remove widgets from Tasker",
- "type": "widget",
- "author": "Sriram SV",
- "version": "1.0",
- "md5sum": "63d529589c91193aa3f353009320f445"
 },
 {
  "file": "todoist-app-widget.lua",
@@ -393,12 +356,12 @@
  "md5sum": "c6639b69b32981267d5ed5c94102ed14"
 },
 {
- "file": "zzz-text-widget.lua",
+ "file": "zzz-test-widget.lua",
  "name": "Test widget",
  "description": "Widget for testing purposes",
  "type": "widget",
  "author": "Tester 2000",
  "version": "1.2",
  "md5sum": "8b84fa009f9a12fdbe302b425912343f"
-}
+},
 ]
