@@ -35,8 +35,8 @@
  "type": "search",
  "lang": "ru",
  "author": "Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "7f6dc77d9e62b119161081f4d51fdf4f"
+ "version": "1.1",
+ "md5sum": "d3ef2d64675628c547f75c4971ebd409"
 },
 {
  "file": "calllog-ru-root-widget.lua",
