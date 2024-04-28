@@ -2,7 +2,7 @@
 
 echo [
 
-last_file=`ls -1 | tail -1`
+last_file=`ls -1 *.lua | tail -1`
 
 for f in *.lua; do
     echo {
