@@ -39,6 +39,15 @@
  "md5sum": "d3ef2d64675628c547f75c4971ebd409"
 },
 {
+ "file": "birthdays-widget.lua",
+ "name": "Birthdays",
+ "description": "Shows upcoming birthdays from the contacts",
+ "type": "widget",
+ "author": "Andrey Gavrilov",
+ "version": "1.0",
+ "md5sum": "6d862c626a8bf37df4f8c408f462e54a"
+},
+{
  "file": "calllog-ru-root-widget.lua",
  "name": "История вызовов",
  "description": "Скрипт показывает историю вызов через прямое чтение базы звонков",
@@ -281,6 +290,16 @@
  "md5sum": "4763a4857599c450c8faae69d5718256"
 },
 {
+ "file": "solar-cycle-widget.lua",
+ "name": "Solar Cycle",
+ "description": "Shows Sunrise Sunset at your location",
+ "type": "widget",
+ "author": "Sriram S V, Will Hall",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "717664f05ffa1a4116dd35e8f6a9a30e"
+},
+{
  "file": "sudoku-widget.lua",
  "name": "Sudoku",
  "description": "Sudoku games",
@@ -316,6 +335,15 @@
  "lang": "ru",
  "author": "Andrey Gavrilov",
  "md5sum": "0bf59a34b63dfa76b642e39cd5fd5ee3"
+},
+{
+ "file": "uptimerobot-2-widget.lua",
+ "name": "Uptimerobot V2",
+ "description": "Shows uptime information from uptimerobot.com. Needs API key. Button-based Version.",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com), Will Hall (hello@willhall.uk)",
+ "version": "1.0",
+ "md5sum": "93380e0a3bdadd7ee4ea0ac0a91c4cfc"
 },
 {
  "file": "uptimerobot-widget.lua",
