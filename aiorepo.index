@@ -146,8 +146,8 @@
  "name": "Google Translate",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.1",
- "md5sum": "ccac6532b1d9e7ce091eb852603341a3"
+ "version": "1.2",
+ "md5sum": "b9cb782441c69ccb38da627e1e627da6"
 },
 {
  "file": "kodi-remote-widget.lua",
