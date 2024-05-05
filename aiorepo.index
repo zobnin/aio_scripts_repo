@@ -44,8 +44,8 @@
  "description": "Shows upcoming birthdays from the contacts",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "6d862c626a8bf37df4f8c408f462e54a"
+ "version": "1.1",
+ "md5sum": "2dc2cc003b6d0af3569c9306db2ca638"
 },
 {
  "file": "calllog-ru-root-widget.lua",
