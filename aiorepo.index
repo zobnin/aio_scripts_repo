@@ -11,12 +11,12 @@
 {
  "file": "amdroid-buttons-app-widget.lua",
  "name": "Amdroid Buttons",
- "description": "Foldable AIO wrapper for the Amdroid next alarm app widget",
+ "description": "Foldable AIO wrapper for the Amdroid Buttons app widget",
  "type": "widget",
- "author": "Theodor Galanis",
- "version": "1.05",
+ "author": "Theodor Galanis (t.me/TheodorGalanis)",
+ "version": "1.10",
  "foldable": "true",
- "md5sum": "a6bbfd8ecd2d90091478303acba9e3a9"
+ "md5sum": "e191aa5f47f6a9c7b0b38e8770e52306"
 },
 {
  "file": "amdroid-nextalarm-app-widget.lua",
