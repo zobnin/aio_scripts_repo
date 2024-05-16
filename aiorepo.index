@@ -85,7 +85,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "2c97074dd0bda5651887907ff1c52d0c"
+ "md5sum": "e67cebbacff3eef0b696d5bb46f41b24"
 },
 {
  "file": "country-search.lua",
@@ -114,6 +114,16 @@
  "author": "me",
  "version": "1.0",
  "md5sum": "b882dc72077e31229cd37793b486bc1e"
+},
+{
+ "file": "electricity-price-widget.lua",
+ "name": "Electricity spot price",
+ "description": "Day-ahead spot price of electricity",
+ "type": "widget",
+ "foldable": "true",
+ "author": "Hannu Hartikainen <hannu.hartikainen@gmail.com>",
+ "version": "1.0",
+ "md5sum": "c8a54a53c07746f3cb1cb110ad32ad69"
 },
 {
  "file": "fifteen-widget.lua",
@@ -166,7 +176,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.1",
- "md5sum": "3b1b79317e7d25a3ed21f5ee6b77470a"
+ "md5sum": "d35062aab5c763ac74ac3c03378980d5"
 },
 {
  "file": "meta-widget.lua",
@@ -203,7 +213,7 @@
  "description": "Shows the contents of any file on the Internet",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "bde111e5c46e9905e7137d90a5f8c924"
+ "md5sum": "b311e3cb0f5d403ccc3d8d7844263fc2"
 },
 {
  "file": "password-gen-search.lua",
@@ -220,7 +230,7 @@
  "type": "widget",
  "author": "Nikolai Galashev",
  "version": "1.0",
- "md5sum": "33914e5b0b5f87005066419e91a41e68"
+ "md5sum": "c5451b822dce6b11c059779f2b00b8cd"
 },
 {
  "file": "play-store-search.lua",
@@ -353,7 +363,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com), Will Hall (hello@willhall.uk)",
  "version": "1.0",
- "md5sum": "93380e0a3bdadd7ee4ea0ac0a91c4cfc"
+ "md5sum": "47d8335a713a5a648ead14205d142013"
 },
 {
  "file": "uptimerobot-widget.lua",
@@ -362,7 +372,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.1",
- "md5sum": "1b59b26bef0fcc2081a0ffada24d85ab"
+ "md5sum": "c6a7f9c04a7f8edd9ef7f49793c52a56"
 },
 {
  "file": "what-to-do-widget.lua",
