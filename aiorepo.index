@@ -84,8 +84,8 @@
  "description": "Time counting widget to fight bad habits",
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "version": "1.0",
- "md5sum": "e67cebbacff3eef0b696d5bb46f41b24"
+ "version": "2.0",
+ "md5sum": "2ba7c534a6258cf0f13ddf7dbab58326"
 },
 {
  "file": "country-search.lua",
@@ -123,7 +123,7 @@
  "foldable": "true",
  "author": "Hannu Hartikainen <hannu.hartikainen@gmail.com>",
  "version": "1.0",
- "md5sum": "c8a54a53c07746f3cb1cb110ad32ad69"
+ "md5sum": "ff604149d433ccf5134bfe12d126683f"
 },
 {
  "file": "fifteen-widget.lua",
@@ -337,6 +337,14 @@
  "version": "1.0",
  "prefix": "tasker | Tasker | command",
  "md5sum": "258ce26b1c9877e756efdb37ca6fdef5"
+},
+{
+ "file": "ticktick-app-widget.lua",
+ "name": "TickTick",
+ "description": "AIO Launhcer wrapper for official TickTick app widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "ca3207ba144c97b5193e53f04ffd764e"
 },
 {
  "file": "todoist-app-widget.lua",
