@@ -55,7 +55,7 @@
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.1",
- "md5sum": "2dc2cc003b6d0af3569c9306db2ca638"
+ "md5sum": "72111d184c3fbc16429b212e9bbc820f"
 },
 {
  "file": "calllog-ru-root-widget.lua",
@@ -140,9 +140,9 @@
  "description": "AIO wrapper for the Google search app widget - open widget settings for options",
  "type": "widget",
  "author": "Theodor Galanis (t.me/TheodorGalanis)",
- "version": "2.5",
+ "version": "2.6",
  "foldable": "false",
- "md5sum": "3ce8f5d902f1ef8aa7fb2ec9fafac066"
+ "md5sum": "271c4e1f11654fd1e2d61cbb1c700ac8"
 },
 {
  "file": "google-tasks-app-widget.lua",
@@ -241,6 +241,25 @@
  "version": "1.0",
  "prefix": "store|ps",
  "md5sum": "8c61dbdd163d8ef7c0925f3c4f2b419a"
+},
+{
+ "file": "profiles-dumper-widget.lua",
+ "name": "Profiles auto dumper",
+ "description": "Hidden widget that auto dump profile on every return to the home screen",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "06fac45eeeac7639e5f15c40ba7b2380"
+},
+{
+ "file": "profiles-restore-save-widget.lua",
+ "name": "Profile Switcher",
+ "version": "1.0",
+ "description": "Tap: restore profile / Long-press: save to profile",
+ "type": "widget",
+ "author": "Marcus Johansson",
+ "md5sum": "82d9418467560c25e0ca123054b10a1a"
 },
 {
  "file": "public-ip-search.lua",

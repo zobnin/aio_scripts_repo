@@ -1,3 +1,7 @@
+2.6
+
+- fix for sound search and google lense buttons not working after latest app update
+
 2.5
 
 - removed prefs._name from script
