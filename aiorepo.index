@@ -58,6 +58,16 @@
  "md5sum": "72111d184c3fbc16429b212e9bbc820f"
 },
 {
+ "file": "calendar-progress-widget.lua",
+ "name": "Calendar Progress",
+ "description": "Shows day, week, month, and year progress bars",
+ "type": "widget",
+ "author": "meluskyc",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "683af22a6c293b8f12ce036fbfd24ec0"
+},
+{
  "file": "calllog-ru-root-widget.lua",
  "name": "История вызовов",
  "description": "Скрипт показывает историю вызов через прямое чтение базы звонков",
