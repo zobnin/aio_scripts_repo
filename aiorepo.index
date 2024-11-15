@@ -9,6 +9,16 @@
  "md5sum": "227f7fef5806e4eadceca7ef3a0dd7b6"
 },
 {
+ "file": "alquran-widget.lua",
+ "name": "AlQuran",
+ "description": "AlQuran",
+ "type": "widget",
+ "author": "Nuhu Sule (ncalyx@gmail.com)",
+ "version": "2.3",
+ "foldable": "false",
+ "md5sum": "fc3efa2ecf813315e6e8858c9d4f69f4"
+},
+{
  "file": "amdroid-buttons-app-widget.lua",
  "name": "Amdroid Buttons",
  "description": "Foldable AIO wrapper for the Amdroid Buttons app widget",
@@ -132,8 +142,8 @@
  "type": "widget",
  "foldable": "true",
  "author": "Hannu Hartikainen <hannu.hartikainen@gmail.com>",
- "version": "1.0",
- "md5sum": "ff604149d433ccf5134bfe12d126683f"
+ "version": "1.1",
+ "md5sum": "7a74861fed70a387046d9d0fe27f2931"
 },
 {
  "file": "fifteen-widget.lua",
@@ -374,6 +384,16 @@
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
  "md5sum": "ca3207ba144c97b5193e53f04ffd764e"
+},
+{
+ "file": "timed-message-widget.lua",
+ "name": "Timed message",
+ "description": "A message that is displayed at a specific time",
+ "type": "widget",
+ "foldable": "false",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "a5eae1efb711dc2bbc9f77ce90e5930c"
 },
 {
  "file": "todoist-app-widget.lua",
