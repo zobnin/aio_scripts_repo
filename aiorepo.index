@@ -105,7 +105,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "2.0",
- "md5sum": "2ba7c534a6258cf0f13ddf7dbab58326"
+ "md5sum": "4450f1f3ed7f11527b350eefbca3486e"
 },
 {
  "file": "country-search.lua",
@@ -439,7 +439,7 @@
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
  "foldable": "false",
- "md5sum": "ecf4368293946be8695c0cd11c4746ef"
+ "md5sum": "80204db3110f528d2754e2ab3d59040d"
 },
 {
  "file": "widgets-on-off.lua",
