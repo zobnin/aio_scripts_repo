@@ -199,15 +199,6 @@
  "md5sum": "d35062aab5c763ac74ac3c03378980d5"
 },
 {
- "file": "meta-widget.lua",
- "name": "Meta widget",
- "description": "Widget of widgets",
- "type": "widget",
- "author": "Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "dd886eb779152bdb6f6a23319451e5e2"
-},
-{
  "file": "monitor-lite-widget.lua",
  "name": "Monitor",
  "description": "One line monitor widget",
