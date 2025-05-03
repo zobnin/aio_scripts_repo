@@ -64,8 +64,8 @@
  "description": "Shows upcoming birthdays from the contacts",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.1",
- "md5sum": "72111d184c3fbc16429b212e9bbc820f"
+ "version": "1.2",
+ "md5sum": "1b089716f18e743d0459a96e88427738"
 },
 {
  "file": "calendar-progress-widget.lua",
@@ -124,7 +124,7 @@
  "lang": "ru",
  "author": "Andrey Gavrilov",
  "version": "1.0",
- "md5sum": "03966044c9150d5f24e2bc6774a35876"
+ "md5sum": "6850fbe2d3798bd405198f6c7c85ea43"
 },
 {
  "file": "dad-jokes-widget.lua",
@@ -133,7 +133,7 @@
  "type": "widget",
  "author": "me",
  "version": "1.0",
- "md5sum": "b882dc72077e31229cd37793b486bc1e"
+ "md5sum": "36182bcb3ceb458978ca645ec74ecbe9"
 },
 {
  "file": "electricity-price-widget.lua",
@@ -179,7 +179,7 @@
  "type": "search",
  "author": "Evgeny Zobnin",
  "version": "1.0",
- "md5sum": "f8e95c81302127614d777463665d6c01"
+ "md5sum": "bec4a89846d44ee59506b883f453873f"
 },
 {
  "file": "google-translate-widget.lua",
@@ -187,7 +187,7 @@
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.2",
- "md5sum": "b9cb782441c69ccb38da627e1e627da6"
+ "md5sum": "287fe70fecb68c6cb1d9cc8dc3f0f383"
 },
 {
  "file": "kodi-remote-widget.lua",
@@ -216,7 +216,7 @@
  "author": "Sriram SV",
  "version": "1.0",
  "prefix": "navigate|nav",
- "md5sum": "d74dcf27756b41a35823d2de3efc5c39"
+ "md5sum": "50a899712b8fac71a4e179c51c8f13f8"
 },
 {
  "file": "net-file-widget.lua",
@@ -232,7 +232,7 @@
  "description": "30-character password generator",
  "type": "search",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "md5sum": "77e6c988ea83dacfc9bdd6fb9fbe2e4b"
+ "md5sum": "18a8e150ca960d6de4612ca195837d10"
 },
 {
  "file": "period-progress-widget.lua",
@@ -279,7 +279,7 @@
  "type": "search",
  "author": "Sriram SV",
  "version": "1.0",
- "md5sum": "6c8197d1b077541d0b24eeb0ebf4e9ea"
+ "md5sum": "9850d0a89a100b4a66e00ef1d55b64d9"
 },
 {
  "file": "qr-code-search.lua",
@@ -299,7 +299,7 @@
  "foldable": "true",
  "author": "Theodor Galanis",
  "version": "2.5",
- "md5sum": "fe2157efc3417474eae3aff7432a6ad9"
+ "md5sum": "99207fe24e47ed3b922e0cb7cd760cda"
 },
 {
  "file": "random-joke-widget.lua",
@@ -308,7 +308,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "34a0e3d239cf9f9ff222b5302e2501a7"
+ "md5sum": "2e0d0cf32c08227edea6a75bfa6421f2"
 },
 {
  "file": "region-ru-search.lua",
@@ -318,7 +318,7 @@
  "type": "search",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "3788f437a5fbc76590f7c98c61ca984c"
+ "md5sum": "8de59988c9c4e85378018ebd1145e200"
 },
 {
  "file": "settings-menu.lua",
@@ -337,7 +337,7 @@
  "author": "Sriram SV",
  "version": "1.0",
  "prefix": "share",
- "md5sum": "4763a4857599c450c8faae69d5718256"
+ "md5sum": "c0f1bccae20dc71b088efe9129500888"
 },
 {
  "file": "solar-cycle-widget.lua",
@@ -375,6 +375,15 @@
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
  "md5sum": "ca3207ba144c97b5193e53f04ffd764e"
+},
+{
+ "file": "tide-widget.lua",
+ "name": "Tide Time",
+ "description": "Widget shows high and low tide times for today.",
+ "type": "widget",
+ "author": "AI Assistant",
+ "version": "1.0",
+ "md5sum": "ab0c929e595d23ad644ed0f3ab4c558c"
 },
 {
  "file": "timed-message-widget.lua",
