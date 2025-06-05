@@ -34,9 +34,9 @@
  "description": "AIO wrapper for the Amdroid Next alarm app widget",
  "type": "widget",
  "author": "Theodor Galanis (t.me/TheodorGalanis)",
- "version": "1.10",
+ "version": "1.11",
  "foldable": "false",
- "md5sum": "14909ccf7a93386eba908d803b7f21ce"
+ "md5sum": "fc6928b51ce19573396e4bdc3e90aea0"
 },
 {
  "file": "arm-ru-abc-widget.lua",
@@ -64,8 +64,8 @@
  "description": "Shows upcoming birthdays from the contacts",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.2",
- "md5sum": "1b089716f18e743d0459a96e88427738"
+ "version": "1.3",
+ "md5sum": "ee56c843b1fe850b7259630a674a4fd7"
 },
 {
  "file": "calendar-progress-widget.lua",
@@ -83,10 +83,10 @@
  "description": "Скрипт показывает историю вызов через прямое чтение базы звонков",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.0",
+ "version": "1.1",
  "lang": "ru",
  "root": "true",
- "md5sum": "2cf3310c3b74224081c64a1ae3aa3d46"
+ "md5sum": "35db509766c76166ed0a3d359651b3e8"
 },
 {
  "file": "chrome-shortctus-app-widget.lua",
@@ -151,8 +151,8 @@
  "description": "Game",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.0",
- "md5sum": "117be1250074a71471f8eb929060ad47"
+ "version": "1.1",
+ "md5sum": "61b3743ed6088233dc0a3db002e6beee"
 },
 {
  "file": "google-search-app-widget.lua",
@@ -160,9 +160,9 @@
  "description": "AIO wrapper for the Google search app widget - open widget settings for options",
  "type": "widget",
  "author": "Theodor Galanis (t.me/TheodorGalanis)",
- "version": "2.6",
+ "version": "2.7",
  "foldable": "false",
- "md5sum": "271c4e1f11654fd1e2d61cbb1c700ac8"
+ "md5sum": "fcfd9505b735835fb961a3338472e761"
 },
 {
  "file": "google-tasks-app-widget.lua",
@@ -179,15 +179,15 @@
  "type": "search",
  "author": "Evgeny Zobnin",
  "version": "1.0",
- "md5sum": "bec4a89846d44ee59506b883f453873f"
+ "md5sum": "a7445f6bacd11cf56950d84ed473e3f1"
 },
 {
  "file": "google-translate-widget.lua",
  "name": "Google Translate",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.2",
- "md5sum": "287fe70fecb68c6cb1d9cc8dc3f0f383"
+ "version": "1.3",
+ "md5sum": "0da873fdce8699005450e8ef96cfadb2"
 },
 {
  "file": "kodi-remote-widget.lua",
@@ -241,7 +241,7 @@
  "type": "widget",
  "author": "Nikolai Galashev",
  "version": "1.0",
- "md5sum": "c5451b822dce6b11c059779f2b00b8cd"
+ "md5sum": "3d85a6978be83deb3499cc2b36f82254"
 },
 {
  "file": "play-store-search.lua",
@@ -298,8 +298,8 @@
  "description": "Launcher selected actions widget",
  "foldable": "true",
  "author": "Theodor Galanis",
- "version": "2.5",
- "md5sum": "99207fe24e47ed3b922e0cb7cd760cda"
+ "version": "2.6",
+ "md5sum": "6d1271a6a75a685dbac130258836acd9"
 },
 {
  "file": "random-joke-widget.lua",
@@ -356,7 +356,7 @@
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.0",
- "md5sum": "d10c9cf7c01d30953562363dfb3761c7"
+ "md5sum": "fc951197bc01edc9f46ee9472d0085f0"
 },
 {
  "file": "tasker-command-search.lua",
@@ -408,10 +408,10 @@
  "name": "ТВ-Программа",
  "description": "Программа передач россиийского ТВ",
  "type": "widget",
- "version": "1.0",
+ "version": "1.1",
  "lang": "ru",
  "author": "Andrey Gavrilov",
- "md5sum": "0bf59a34b63dfa76b642e39cd5fd5ee3"
+ "md5sum": "55fd5c4a4181b0203f33fa1f0498802f"
 },
 {
  "file": "uptimerobot-2-widget.lua",
@@ -447,8 +447,8 @@
  "description": "Turns screen widgets on and off when buttons are pressed",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "3.0",
- "md5sum": "b804b0942b11758d5475b90c2bb7d618"
+ "version": "3.1",
+ "md5sum": "9a96ac65a7287e8d1dfe2765eb34837f"
 },
 {
  "file": "youtube-search.lua",
