@@ -190,6 +190,16 @@
  "md5sum": "0da873fdce8699005450e8ef96cfadb2"
 },
 {
+ "file": "isdayoff-ru-widget.lua",
+ "name": "Сегодня выходной?",
+ "description": "Показывает, выходной ли сегодня день.",
+ "type": "widget",
+ "lang": "ru",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "c31f11327bae33e2e332bfe8c0df1e74"
+},
+{
  "file": "kodi-remote-widget.lua",
  "name": "Kodi Remote",
  "description": "Kodi multimedia center remote control widget",
@@ -338,6 +348,16 @@
  "version": "1.0",
  "prefix": "share",
  "md5sum": "c0f1bccae20dc71b088efe9129500888"
+},
+{
+ "file": "shell-widget.lua",
+ "name": "Shell widget",
+ "description": "Shows the result of executing console commands",
+ "type": "widget",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "41f9d75633d0139a899ec538f3ca9716"
 },
 {
  "file": "solar-cycle-widget.lua",
