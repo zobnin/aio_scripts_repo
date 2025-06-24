@@ -276,11 +276,11 @@
 {
  "file": "profiles-restore-save-widget.lua",
  "name": "Profile Switcher",
- "version": "1.0",
+ "version": "1.1",
  "description": "Tap: restore profile / Long-press: save to profile",
  "type": "widget",
  "author": "Marcus Johansson",
- "md5sum": "82d9418467560c25e0ca123054b10a1a"
+ "md5sum": "1af2877869064c61704314e5e5435ba4"
 },
 {
  "file": "public-ip-search.lua",
@@ -387,6 +387,16 @@
  "version": "1.0",
  "prefix": "tasker | Tasker | command",
  "md5sum": "258ce26b1c9877e756efdb37ca6fdef5"
+},
+{
+ "file": "thirukkural-widget.lua",
+ "name": "Thirukkural",
+ "description": "Thirukkural Widget that refreshes  a verse form the Tamil Book Thirukkural. Single click will open the diaglog with multiple translations in English and Tamili. Long press will retrive a new verse. This uses the API from getthirukural",
+ "type": "widget",
+ "author": "Abdul MJ (mjabdulm@gmail.com)",
+ "version": "1.0",
+ "foldable": "false",
+ "md5sum": "1a623c6f965ff9ba2c9b0fe577676cb1"
 },
 {
  "file": "ticktick-app-widget.lua",
