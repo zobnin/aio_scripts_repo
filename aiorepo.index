@@ -321,6 +321,16 @@
  "md5sum": "2e0d0cf32c08227edea6a75bfa6421f2"
 },
 {
+ "file": "recent-apps.lua",
+ "name": "Recent Apps",
+ "description": "Gets the apps in the recent apps (app overview) screen. Tap to open the app or long press to remove it.\nREQUIRES ROOT and Android 11 or higher.",
+ "type": "widget",
+ "author": "Abi",
+ "version": "3.3",
+ "foldable": "false",
+ "md5sum": "1e5c1e9300fed66f8e3a229e80b75ad0"
+},
+{
  "file": "region-ru-search.lua",
  "name": "Автомобильные коды",
  "description": "Поиск по кодам автомобильных номеров России",
