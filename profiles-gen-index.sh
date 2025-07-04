@@ -2,7 +2,7 @@
 set -euo pipefail
 shopt -s nullglob
 
-output="aioprofiles.json"
+output="aioprofiles.index"
 tmp="$(mktemp)"
 
 # Start the JSON array

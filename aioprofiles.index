@@ -1,10 +1,18 @@
 [
 {
-  "name": "AIO Developer Home",
-  "description": "Home screen used daily by the developer of AIO Launcher",
-  "author": "Evgeny Zobnin",
-  "version": "1.0",
-  "file": "AIO Developer Home-aio-profile.zip",
-  "md5sum": "c3581fd9f23a0a94dca5afeefd17a374"
+ "file": "AIO Developer Home-aio-profile.zip",
+ "name": "AIO Developer Home",
+ "description": "Home screen used daily by the developer of AIO Launcher",
+ "author": "Evgeny Zobnin",
+ "version": "1.0",
+ "md5sum": "517c3f84c2d876d0e8d26f73f036ba92"
+},
+{
+ "file": "zesaver-aio-profile.zip",
+ "name": "zesaver",
+ "description": "Dark laconic profile with maximal clearness in mind",
+ "author": "zesaver",
+ "version": "1.0",
+ "md5sum": "742c4772c0c8070d3f077c53a6c1ddcb"
 }
 ]
