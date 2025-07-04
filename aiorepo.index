@@ -190,6 +190,15 @@
  "md5sum": "0da873fdce8699005450e8ef96cfadb2"
 },
 {
+ "file": "habits-widget.lua",
+ "name": "Habit tracker",
+ "description": "Daily habit tracker with JSON storage",
+ "type": "widget",
+ "author": "Sergey Mironov",
+ "version": "1.0",
+ "md5sum": "29f15c1c780cad57675c8612649f045f"
+},
+{
  "file": "isdayoff-ru-widget.lua",
  "name": "Сегодня выходной?",
  "description": "Показывает, выходной ли сегодня день.",
