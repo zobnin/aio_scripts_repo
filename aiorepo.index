@@ -146,6 +146,15 @@
  "md5sum": "7a74861fed70a387046d9d0fe27f2931"
 },
 {
+ "file": "fennel-search.lua",
+ "name": "Fennel interpreter",
+ "type": "search",
+ "description": "Interpreter for the Fennel language (a Lisp dialect) right in the search box!",
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
+ "version": "1.0",
+ "md5sum": "f201b3bfa808d3e6f002087d1b56972b"
+},
+{
  "file": "fifteen-widget.lua",
  "name": "15 Puzzle",
  "description": "Game",
