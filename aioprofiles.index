@@ -8,6 +8,14 @@
  "md5sum": "517c3f84c2d876d0e8d26f73f036ba92"
 },
 {
+ "file": "Gold-aio-profile.zip",
+ "name": "Gold",
+ "description": "Simple, readable, and utilitarian theme",
+ "author": "Sean",
+ "version": "1.0",
+ "md5sum": "39adf5e4b7bc4df90fd9d85040f61bf8"
+},
+{
  "file": "WinPhone-aio-profile.zip",
  "name": "WinPhone",
  "description": "Windows Phone inspired theme",
