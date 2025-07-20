@@ -16,6 +16,14 @@
  "md5sum": "4fbbc210a5747fa9abdbf6a5fa5c83ce"
 },
 {
+ "file": "Minimalist-aio-profile.zip",
+ "name": "Minimalist",
+ "description": "Simple and clean",
+ "author": "Mike Thorn",
+ "version": "1.0",
+ "md5sum": "b296372fca0180338da1d0959b3263e9"
+},
+{
  "file": "WinPhone-aio-profile.zip",
  "name": "WinPhone",
  "description": "Windows Phone inspired theme",
