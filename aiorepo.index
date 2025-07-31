@@ -434,6 +434,14 @@
  "md5sum": "ab0c929e595d23ad644ed0f3ab4c558c"
 },
 {
+ "file": "time-date-widget.lua",
+ "name": "Time & Date",
+ "description": "Simple widget showing current time and date",
+ "author": "Evgeny Zobnin (zobnin@gmail.com),
+ "type": "widget",
+ "md5sum": "18503ef6867587fa74c0339ef35fe4c9"
+},
+{
  "file": "timed-message-widget.lua",
  "name": "Timed message",
  "description": "A message that is displayed at a specific time",
