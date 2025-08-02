@@ -437,9 +437,9 @@
  "file": "time-date-widget.lua",
  "name": "Time & Date",
  "description": "Simple widget showing current time and date",
- "author": "Evgeny Zobnin (zobnin@gmail.com),
+ "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "type": "widget",
- "md5sum": "18503ef6867587fa74c0339ef35fe4c9"
+ "md5sum": "4423f523798cf0d6fe9a0cd6d54c5449"
 },
 {
  "file": "timed-message-widget.lua",
