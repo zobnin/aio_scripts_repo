@@ -59,6 +59,15 @@
  "md5sum": "d3ef2d64675628c547f75c4971ebd409"
 },
 {
+ "file": "bible-search.lua",
+ "name": "Bible Search",
+ "type": "search",
+ "author": "Evon Smith",
+ "description": "Type in Bible book and chapter to open the YouVersion Bible App to that location right from the search window",
+ "version": "2.0",
+ "md5sum": "9d4b2c05593d25c9079a6c658de4c2b5"
+},
+{
  "file": "birthdays-widget.lua",
  "name": "Birthdays",
  "description": "Shows upcoming birthdays from the contacts",
