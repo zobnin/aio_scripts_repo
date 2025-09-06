@@ -155,6 +155,15 @@
  "md5sum": "7a74861fed70a387046d9d0fe27f2931"
 },
 {
+ "file": "enhanced-calendar-widget.lua",
+ "name": "Enhanced Calendar",
+ "description": "Monthly calendar with system calendar events",
+ "type": "widget",
+ "author": "Evon Smith with code from Andrey Gavrilov's Calendar widget",
+ "version": "1.4",
+ "md5sum": "108d2459611dfdb9d9961f72e9eb7f4d"
+},
+{
  "file": "fennel-search.lua",
  "name": "Fennel interpreter",
  "type": "search",
