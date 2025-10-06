@@ -16,7 +16,7 @@
  "author": "Nuhu Sule (ncalyx@gmail.com)",
  "version": "2.3",
  "foldable": "false",
- "md5sum": "fc3efa2ecf813315e6e8858c9d4f69f4"
+ "md5sum": "0f4897a4c4e2c26c7a8d572054fbbfdc"
 },
 {
  "file": "amdroid-buttons-app-widget.lua",
@@ -26,7 +26,7 @@
  "author": "Theodor Galanis (t.me/TheodorGalanis)",
  "version": "1.10",
  "foldable": "true",
- "md5sum": "e191aa5f47f6a9c7b0b38e8770e52306"
+ "md5sum": "3042078cb61bbc479e53eb8c8b781593"
 },
 {
  "file": "amdroid-nextalarm-app-widget.lua",
@@ -95,7 +95,7 @@
  "version": "1.1",
  "lang": "ru",
  "root": "true",
- "md5sum": "35db509766c76166ed0a3d359651b3e8"
+ "md5sum": "68e71e63393b283b95260b09b337522f"
 },
 {
  "file": "chrome-shortctus-app-widget.lua",
@@ -114,7 +114,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "2.0",
- "md5sum": "4450f1f3ed7f11527b350eefbca3486e"
+ "md5sum": "48c078deaa03f998b4562cb4b2e6006f"
 },
 {
  "file": "country-search.lua",
@@ -204,16 +204,16 @@
  "type": "widget",
  "author": "Andrey Gavrilov",
  "version": "1.3",
- "md5sum": "0da873fdce8699005450e8ef96cfadb2"
+ "md5sum": "744d91f3a298294db59cada159e18096"
 },
 {
  "file": "habits-widget.lua",
- "name": "Habit tracker",
+ "name": "Habit Tracker",
  "description": "Daily habit tracker with JSON storage",
  "type": "widget",
  "author": "Sergey Mironov",
- "version": "1.0",
- "md5sum": "29f15c1c780cad57675c8612649f045f"
+ "version": "1.1",
+ "md5sum": "df00fd91ddb22d8af392dcdaaf8f14d7"
 },
 {
  "file": "isdayoff-ru-widget.lua",
@@ -232,7 +232,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.1",
- "md5sum": "d35062aab5c763ac74ac3c03378980d5"
+ "md5sum": "4d2ce3870ff7bf79f4f8d2981879d00a"
 },
 {
  "file": "monitor-lite-widget.lua",
@@ -287,7 +287,7 @@
  "author": "Sriram SV",
  "version": "1.0",
  "prefix": "store|ps",
- "md5sum": "8c61dbdd163d8ef7c0925f3c4f2b419a"
+ "md5sum": "f6b0b617d113b40f2f18328a6720e8aa"
 },
 {
  "file": "profiles-dumper-widget.lua",
@@ -403,7 +403,7 @@
  "author": "Sriram S V, Will Hall",
  "version": "1.0",
  "foldable": "false",
- "md5sum": "717664f05ffa1a4116dd35e8f6a9a30e"
+ "md5sum": "cb5c2fc28079c51d781843481af09c71"
 },
 {
  "file": "sudoku-widget.lua",
@@ -485,7 +485,7 @@
  "version": "1.1",
  "lang": "ru",
  "author": "Andrey Gavrilov",
- "md5sum": "55fd5c4a4181b0203f33fa1f0498802f"
+ "md5sum": "4f56db7826d4f52c6a4a5b5d6eeba2df"
 },
 {
  "file": "uptimerobot-2-widget.lua",
@@ -494,7 +494,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com), Will Hall (hello@willhall.uk)",
  "version": "1.0",
- "md5sum": "47d8335a713a5a648ead14205d142013"
+ "md5sum": "810eba7444f0277bc9c370e8b46ae8ef"
 },
 {
  "file": "uptimerobot-widget.lua",
@@ -503,7 +503,7 @@
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.1",
- "md5sum": "c6a7f9c04a7f8edd9ef7f49793c52a56"
+ "md5sum": "264844f4436077dff499e6bdacebc652"
 },
 {
  "file": "what-to-do-widget.lua",

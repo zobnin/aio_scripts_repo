@@ -1,0 +1,4 @@
+1.1:
+
+- random color selection from md_colors table on creating new item
+- added progress tracking (click count/days since item creation) on button 
