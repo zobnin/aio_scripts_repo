@@ -39,6 +39,15 @@
  "md5sum": "fc6928b51ce19573396e4bdc3e90aea0"
 },
 {
+ "file": "app-prefix-launch-search.lua",
+ "name": "App Prefix",
+ "description": "Finds apps by name prefix and auto-launches when there is exactly one match",
+ "type": "search",
+ "author": "Codex",
+ "version": "1.0",
+ "md5sum": "57f31be49b21675ffc63dc73e0bf0166"
+},
+{
  "file": "arm-ru-abc-widget.lua",
  "name": "Армянский алфавит",
  "description": "Армянский алфавит с транскрипцией",
@@ -95,7 +104,7 @@
  "version": "1.1",
  "lang": "ru",
  "root": "true",
- "md5sum": "68e71e63393b283b95260b09b337522f"
+ "md5sum": "ab663805ec030007e296bfed69d86aff"
 },
 {
  "file": "chrome-shortctus-app-widget.lua",
@@ -152,7 +161,7 @@
  "foldable": "true",
  "author": "Hannu Hartikainen <hannu.hartikainen@gmail.com>",
  "version": "1.1",
- "md5sum": "7a74861fed70a387046d9d0fe27f2931"
+ "md5sum": "5c70f0c2723e50aa7dce66f64a0a9a65"
 },
 {
  "file": "enhanced-calendar-widget.lua",
@@ -495,7 +504,7 @@
  "version": "1.1",
  "lang": "ru",
  "author": "Andrey Gavrilov",
- "md5sum": "4f56db7826d4f52c6a4a5b5d6eeba2df"
+ "md5sum": "e5bafae556bf6a72eb9220217b2a8242"
 },
 {
  "file": "uptimerobot-2-widget.lua",
