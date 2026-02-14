@@ -8,6 +8,14 @@
  "md5sum": "517c3f84c2d876d0e8d26f73f036ba92"
 },
 {
+ "file": "Blur Black-aio-profile.zip",
+ "name": "Blur Black Profile",
+ "description": "Blur",
+ "author": "Dhwanil",
+ "version": "1.0",
+ "md5sum": "a000001fd8c57c47dfdeeb4aec392e5c"
+},
+{
  "file": "Glass-aio-profile.zip",
  "name": "Glass",
  "description": "Glass Theme",
