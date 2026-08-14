@@ -77,13 +77,53 @@ write_apk_entry() {
     version_name=$(printf '%s\n' "$badging" \
         | sed -n "s/^package: .* versionName='\([^']*\)'.*/\1/p" \
         | head -n 1)
+    version_code=$(printf '%s\n' "$badging" \
+        | sed -n "s/^package: .* versionCode='\([^']*\)'.*/\1/p" \
+        | head -n 1)
     app_name=$(printf '%s\n' "$badging" \
         | sed -n "s/^application-label:'\([^']*\)'/\1/p" \
         | head -n 1)
 
-    if [ -z "$package_name" ] || [ -z "$version_name" ]; then
-        printf 'Unable to read package or version from %s with %s\n' \
+    if [ -z "$package_name" ] || [ -z "$version_name" ] || [ -z "$version_code" ]; then
+        printf 'Unable to read package or version metadata from %s with %s\n' \
             "$file" "$aapt_tool" >&2
+        exit 1
+    fi
+    case "$version_code" in
+        *[!0-9]*)
+            printf 'Invalid versionCode in %s: %s\n' "$file" "$version_code" >&2
+            exit 1
+            ;;
+    esac
+
+    if [ "$(basename "$aapt_tool")" = "aapt2" ]; then
+        manifest_dump=$("$aapt_tool" dump xmltree "$apk_path" --file AndroidManifest.xml)
+    else
+        manifest_dump=$("$aapt_tool" dump xmltree "$apk_path" AndroidManifest.xml)
+    fi
+    if ! printf '%s\n' "$manifest_dump" | awk '
+        function indentation(line, copy) {
+            copy = line
+            sub(/[^ ].*$/, "", copy)
+            return length(copy)
+        }
+        /E: receiver([ (]|$)/ {
+            in_receiver = 1
+            receiver_indent = indentation($0)
+            next
+        }
+        in_receiver {
+            current_indent = indentation($0)
+            if ($0 ~ /^[ ]*E:/ && current_indent <= receiver_indent) {
+                in_receiver = 0
+            }
+            if (in_receiver && index($0, "ru.execbit.aiolauncher.PLUGIN_GET_DATA") > 0) {
+                found = 1
+            }
+        }
+        END { exit found ? 0 : 1 }
+    '; then
+        printf '%s does not declare an AIO plugin receiver\n' "$file" >&2
         exit 1
     fi
 
@@ -94,6 +134,8 @@ write_apk_entry() {
         --arg name "$app_name" \
         --arg package "$package_name" \
         --arg version "$version_name" \
+        --argjson versionCode "$version_code" \
+        --arg sha256 "$(sha256sum "$apk_path" | cut -d ' ' -f 1)" \
         --arg md5sum "$(md5sum "$apk_path" | cut -d ' ' -f 1)" \
         '{
             file: $file,
@@ -101,6 +143,8 @@ write_apk_entry() {
             type: "widget",
             package: $package,
             version: $version,
+            versionCode: $versionCode,
+            sha256: $sha256,
             md5sum: $md5sum
         }' > "$output_path"
 }
@@ -112,6 +156,11 @@ command -v jq >/dev/null 2>&1 || {
 
 command -v md5sum >/dev/null 2>&1 || {
     echo 'md5sum is required to generate aiorepo.index' >&2
+    exit 1
+}
+
+command -v sha256sum >/dev/null 2>&1 || {
+    echo 'sha256sum is required to generate aiorepo.index' >&2
     exit 1
 }
 
