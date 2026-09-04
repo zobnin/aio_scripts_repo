@@ -2,173 +2,55 @@
 -- description = "Показывает ежедневный библейский стих"
 -- data_source = "https://vasiley.ru/rss/daily-text-ru.xml"
 -- type = "widget"
+-- lang = "ru"
 -- author = "Vasiliy"
--- version = "1.2"
+-- version = "1.3"
 -- foldable = "false"
 
-local api = require 'aio_api'
+local feed_url = "https://vasiley.ru/rss/daily-text-ru.xml"
+local wol_url = "https://wol.jw.org/ru/wol/h/r2/lp-u"
 
 local daily_text = nil
-local loading = true
-local error_text = nil
-
-local render
-local load_text
-
-local function escape_html(text)
-    text = tostring(text or '')
-    text = text:gsub('&', '&amp;')
-    text = text:gsub('<', '&lt;')
-    text = text:gsub('>', '&gt;')
-    return text
-end
+local stale = false
 
 local function decode_html(text)
-    text = tostring(text or '')
-
-    text = text:gsub('<!%[CDATA%[', '')
-    text = text:gsub('%]%]>', '')
-
-    text = text:gsub('&quot;', '"')
-    text = text:gsub('&#34;', '"')
-    text = text:gsub('&apos;', "'")
-    text = text:gsub('&#39;', "'")
-    text = text:gsub('&lt;', '<')
-    text = text:gsub('&gt;', '>')
-    text = text:gsub('&amp;', '&')
-
+    text = tostring(text or "")
+    text = text:gsub("<!%[CDATA%[", "")
+    text = text:gsub("%]%]>", "")
+    text = text:gsub("&quot;", '"')
+    text = text:gsub("&#34;", '"')
+    text = text:gsub("&apos;", "'")
+    text = text:gsub("&#39;", "'")
+    text = text:gsub("&lt;", "<")
+    text = text:gsub("&gt;", ">")
+    text = text:gsub("&amp;", "&")
     return text
 end
 
-local function open_verse()
-    api.intent.open_uri('https://wol.jw.org/ru/wol/h/r2/lp-u')
+local function escape_html(text)
+    text = tostring(text or "")
+    text = text:gsub("&", "&amp;")
+    text = text:gsub("<", "&lt;")
+    text = text:gsub(">", "&gt;")
+    return text
 end
 
-local function copy_verse()
-    if daily_text and daily_text ~= '' then
-        api.system.to_clipboard(daily_text)
-        api.output.show_toast('Текст скопирован')
-    end
-end
-
-render = function()
-    local definition = {}
-
-    table.insert(definition, {
-        type = 'icon',
-        icon = 'fa:book-open',
-        size = 20,
-        color = '#ffcc00',
-        gravity = 'center_v',
-        margin = '0 0 0 4dp',
-    })
-
-    table.insert(definition, {
-        type = 'text',
-        text = '<b>Текст на день</b>',
-        size = 18,
-        gravity = 'center_v',
-        font_padding = false,
-        margin = '0 0 0 6dp',
-        tap = open_verse,
-    })
-
-    table.insert(definition, { type = 'new_line', top = 1 })
-
-    if loading and not daily_text then
-        table.insert(definition, {
-            type = 'text',
-            text = '%%fa-fw:spinner%% Загрузка...',
-            color = '#888888',
-            font_padding = false,
-            margin = '0 0 0 4dp',
-        })
-
-        api.layout.render(definition)
-        return
-    end
-
-    if error_text and not daily_text then
-        table.insert(definition, {
-            type = 'text',
-            text = '%%fa-fw:triangle-exclamation%% ' .. escape_html(error_text),
-            color = '#ff5555',
-            font_padding = false,
-            margin = '0 0 0 4dp',
-        })
-
-        api.layout.render(definition)
-        return
-    end
-
-    if daily_text then
-        table.insert(definition, {
-            type = 'text',
-            text = '<i>' .. escape_html(daily_text) .. '</i>',
-            size = 16,
-            font_padding = false,
-            margin = '2dp 0 0 4dp',
-            tap = open_verse,
-            long_tap = copy_verse,
-        })
-    end
-
-    table.insert(definition, { type = 'new_line', top = 2 })
-
-    table.insert(definition, {
-        type = 'button',
-        text = '%%fa-fw:book-open%% Открыть',
-        color = '#3366cc',
-        expand = true,
-        tap = open_verse,
-    })
-
-    table.insert(definition, { type = 'spacer', width = 2 })
-
-    table.insert(definition, {
-        type = 'button',
-        text = '%%fa-fw:copy%% Копировать',
-        tap = copy_verse,
-    })
-
-    api.layout.render(definition)
-end
-
-load_text = function()
-    loading = true
-    error_text = nil
-
-    render()
-
-    api.http.get({
-        url = 'https://vasiley.ru/rss/daily-text-ru.xml'
-    }, function(response, err)
-
-        loading = false
-
-        if err
-            or type(response) ~= 'table'
-            or response.code < 200
-            or response.code >= 300
-            or not response.body
-            or response.body == ''
-        then
-            error_text = 'Ошибка обновления'
-            render()
-            return
+local function draw()
+    if daily_text ~= nil and daily_text ~= "" then
+        local text = "<i>" .. escape_html(daily_text) .. "</i>"
+        if stale then
+            text = "<font color=\"#ff9800\">⚠ Не удалось обновить данные. Показан последний полученный текст.</font>\n" .. text
         end
+        ui:show_text(text)
+    elseif stale then
+        ui:show_text("⚠ Не удалось получить текст на день")
+    else
+        ui:show_text("Загрузка...")
+    end
+end
 
-        local title = response.body:match('<item>.-<title>(.-)</title>')
-
-        if title then
-            daily_text = decode_html(title)
-            error_text = nil
-        else
-            error_text = 'Текст дня не найден'
-        end
-
-        render()
-    end)
+local function load_text()
+    http:get(feed_url)
 end
 
 function on_alarm()
@@ -177,4 +59,31 @@ end
 
 function on_resume()
     load_text()
+end
+
+function on_network_result(result, code)
+    if code >= 200 and code < 300 and result ~= nil and result ~= "" then
+        local title = result:match("<item>.-<title>(.-)</title>")
+        if title ~= nil and title ~= "" then
+            daily_text = decode_html(title)
+            stale = false
+            draw()
+            return
+        end
+    end
+
+    stale = true
+    draw()
+end
+
+function on_click()
+    system:open_browser(wol_url)
+end
+
+function on_long_click()
+    if daily_text ~= nil and daily_text ~= "" then
+        system:to_clipboard(daily_text)
+        ui:show_toast("Текст скопирован")
+    end
+    return true
 end
