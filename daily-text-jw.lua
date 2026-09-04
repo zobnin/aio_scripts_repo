@@ -4,7 +4,7 @@
 -- type = "widget"
 -- lang = "ru"
 -- author = "Vasiliy"
--- version = "1.3"
+-- version = "1.4"
 -- foldable = "false"
 
 local feed_url = "https://vasiley.ru/rss/daily-text-ru.xml"
@@ -72,6 +72,11 @@ function on_network_result(result, code)
         end
     end
 
+    stale = true
+    draw()
+end
+
+function on_network_error(error)
     stale = true
     draw()
 end
