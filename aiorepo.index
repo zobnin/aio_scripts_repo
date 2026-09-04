@@ -154,6 +154,17 @@
  "md5sum": "36182bcb3ceb458978ca645ec74ecbe9"
 },
 {
+ "file": "daily-text-jw.lua",
+ "name": "Текст на день",
+ "description": "Показывает ежедневный библейский стих",
+ "type": "widget",
+ "lang": "ru",
+ "author": "Vasiliy",
+ "version": "1.3",
+ "foldable": "false",
+ "md5sum": "3cc9b2668f92d0369c3b08445d7d7e77"
+},
+{
  "file": "electricity-price-widget.lua",
  "name": "Electricity spot price",
  "description": "Day-ahead spot price of electricity",
