@@ -3,7 +3,7 @@
 -- description = "Shows upcoming birthdays from the contacts"
 -- type = "widget"
 -- author = "Andrey Gavrilov"
--- version = "1.3"
+-- version = "1.4"
 
 local prefs = require "prefs"
 local fmt = require "fmt"
@@ -23,6 +23,10 @@ local months = {
     "December"
 }
 
+function event_begin(event)
+    return event.begin_time or event.begin
+end
+
 function on_resume()
     if not prefs.count then
         prefs.count = 10
@@ -40,11 +44,11 @@ function on_contacts_loaded()
 end
 
 function redraw()
-    table.sort(contacts,function(a,b) return a.begin < b.begin end)
+    table.sort(contacts,function(a,b) return event_begin(a) < event_begin(b) end)
     events = {}
     local lines = {}
     local lines_exp = {}
-    prev_begin = contacts[1].begin
+    prev_begin = event_begin(contacts[1])
     for i,v in ipairs(contacts) do
 	    local fmt_out = fmt_line(v)
 	    local insert = 0
@@ -54,7 +58,7 @@ function redraw()
 	        insert = 1
 	    end
 	    if insert == 1 then
-	        if #lines_exp >= prefs.count and prev_begin ~= v.begin then
+	        if #lines_exp >= prefs.count and prev_begin ~= event_begin(v) then
 	            break
 	        end
             table.insert(events, v)
@@ -62,7 +66,7 @@ function redraw()
                 table.insert(lines, fmt_out)
             end
             table.insert(lines_exp, fmt_out)
-            prev_begin = v.begin
+            prev_begin = event_begin(v)
         end
     end
     if ui.set_expandable then
@@ -81,10 +85,10 @@ end
 
 function fmt_line(event)
     local line = event.title
-    if os.date("%y%m%d",event.begin) == os.date("%y%m%d") then
+    if os.date("%y%m%d",event_begin(event)) == os.date("%y%m%d") then
         line = fmt.bold(fmt.colored(line, aio:colors().accent))
     end
-    return line .. fmt.secondary(" - ") .. fmt_date(event.begin)
+    return line .. fmt.secondary(" - ") .. fmt_date(event_begin(event))
 end
 
 function fmt_date(date)

@@ -17,19 +17,21 @@ function on_tick(n)
 end
 
 function update()
-    local batt_percent = system:battery_info().percent
-    local is_charging = system:battery_info().charging
-    local mem_total = system:system_info().mem_total
-    local mem_available = system:system_info().mem_available
-    local storage_total = system:system_info().storage_total
-    local storage_available = system:system_info().storage_available
+    local batt = system:battery_info() or {}
+    local sys = system:system_info() or {}
+    local batt_percent = batt.percent
+    local is_charging = batt.charging
+    local mem_total = sys.mem_total
+    local mem_available = sys.mem_available or "?"
+    local storage_total = sys.storage_total
+    local storage_available = sys.storage_available or "?"
 
     if (is_charging) then
-        batt_percent = fmt.colored(batt_percent.."%", good_color)
-    elseif (batt_percent <= 15) then
+        batt_percent = fmt.colored((batt_percent or "?").."%", good_color)
+    elseif (type(batt_percent) == "number" and batt_percent <= 15) then
         batt_percent = fmt.colored(batt_percent.."%", bad_color)
     else
-        batt_percent = batt_percent.."%"
+        batt_percent = (batt_percent or "?").."%"
     end
 
     ui:show_text(

@@ -1,19 +1,19 @@
--- name = "TickTick"
--- description = "AIO wrapper for the official TickTick app widget"
+-- name = "Todoist"
+-- description = "AIO wrapper for the official Todoist app widget"
 -- type = "widget"
--- author = "Evgeny Zobnin (zobnin@gmail.com)"
+-- author = "Andey Gavrilov"
 -- version = "2.0"
 -- aio_version = "7.5.0-beta2"
--- uses_app = "com.ticktick.task"
+-- uses_app = "com.todoist"
 
 local prefs = require "prefs"
 local fmt = require "fmt"
 
-local provider = "com.ticktick.task/com.ticktick.task.activity.widget.AppWidgetScrollable"
-local list_title_id = "com.ticktick.task:id/widget_title_text"
-local add_task_id = "com.ticktick.task:id/widget_title_add"
-local task_title_id = "com.ticktick.task:id/widget_item_text"
-local task_date_id = "com.ticktick.task:id/widget_item_date"
+local provider = "com.todoist/com.todoist.appwidget.provider.ItemListAppWidgetProvider"
+local list_title_id = "com.todoist:id/appwidget_toolbar_title"
+local add_task_id = "com.todoist:id/appwidget_toolbar_add"
+local task_title_id = "com.todoist:id/text"
+local task_date_id = "com.todoist:id/due_date"
 
 local w_bridge = nil
 local click_targets = {}
@@ -96,7 +96,7 @@ function on_app_widget_updated(bridge)
     local list_title = find_visible_node(snapshot, list_title_id)
     local add_task = find_visible_node(snapshot, add_task_id)
     local tasks, max_position = read_tasks(snapshot)
-    local header_text = list_title ~= nil and node_text(list_title) or "TickTick"
+    local header_text = list_title ~= nil and node_text(list_title) or "Todoist"
     local header = fmt.bold(header_text)
     local header_target = list_title ~= nil and list_title.click_target or false
     local folded_line = nil

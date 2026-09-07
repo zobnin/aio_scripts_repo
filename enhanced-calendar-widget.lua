@@ -2,7 +2,7 @@
 -- description = "Monthly calendar with system calendar events"
 -- type = "widget"
 -- author = "Evon Smith with code from Andrey Gavrilov's Calendar widget"
--- version = "1.4"
+-- version = "1.5"
 
 local tab = {}
 local line = " "
@@ -16,6 +16,14 @@ local day = os.date("%d"):gsub("^0","")
 
 -- Initialize preferences module for settings
 prefs = require "prefs"
+
+function event_begin(event)
+    return event.begin_time or event.begin
+end
+
+function event_end(event)
+    return event.end_time or event["end"]
+end
 
 function on_resume()
     if calendar:events(0,0) == "permission_error" then
@@ -72,7 +80,7 @@ function show_events_list()
             if event.all_day then
                 time_str = "All day"
             else
-                time_str = os.date("%H:%M", event.begin) .. " - " .. os.date("%H:%M", event["end"])
+                time_str = os.date("%H:%M", event_begin(event)) .. " - " .. os.date("%H:%M", event_end(event))
             end
             
             -- Get calendar color
@@ -270,7 +278,7 @@ function format_day(y,m,d,events)
     local yes = false
     for i=1,#events do
         local v = events[i]
-        if v.begin >= from and v["end"] <= to then
+        if event_begin(v) >= from and event_end(v) <= to then
             yes = true
             break
         end
@@ -345,11 +353,11 @@ function get_my_events(y,m,d)
     end
     for i=1,#events do
         local v = events[i]
-        if v.begin >= from and v["end"] <= to then
+        if event_begin(v) >= from and event_end(v) <= to then
             v["calendar_name"],v["calendar_color"]=get_my_calendar(v.calendar_id)
             table.insert(tab,v)
         end
-        if v.begin > to then
+        if event_begin(v) > to then
             break
         end
     end

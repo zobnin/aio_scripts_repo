@@ -82,8 +82,8 @@
  "description": "Shows upcoming birthdays from the contacts",
  "type": "widget",
  "author": "Andrey Gavrilov",
- "version": "1.3",
- "md5sum": "ee56c843b1fe850b7259630a674a4fd7"
+ "version": "1.4",
+ "md5sum": "5556e3e92ebb2be378b593bb6b53f199"
 },
 {
  "file": "calendar-progress-widget.lua",
@@ -112,9 +112,9 @@
  "description": "AIO wrapper for the Chrome shortcuts app widget",
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "version": "1.0",
+ "version": "2.0",
  "foldable": "false",
- "md5sum": "1fb17e1c236451d52a9d31b2f8d9336c"
+ "md5sum": "d5ab65483d985d8903cfd231f68d48d7"
 },
 {
  "file": "counter-widget.lua",
@@ -169,8 +169,8 @@
  "description": "Monthly calendar with system calendar events",
  "type": "widget",
  "author": "Evon Smith with code from Andrey Gavrilov's Calendar widget",
- "version": "1.4",
- "md5sum": "108d2459611dfdb9d9961f72e9eb7f4d"
+ "version": "1.5",
+ "md5sum": "61c667210e070041f030387c54fc0628"
 },
 {
  "file": "facts-widget.lua",
@@ -201,12 +201,23 @@
  "md5sum": "61b3743ed6088233dc0a3db002e6beee"
 },
 {
+ "file": "google-search-app-widget.lua",
+ "name": "Google search",
+ "description": "AIO wrapper for the Google search app widget - open widget settings for options",
+ "type": "widget",
+ "author": "Theodor Galanis (t.me/TheodorGalanis)",
+ "version": "3.0",
+ "foldable": "false",
+ "md5sum": "9199d44b697c6156b4438f02e841bbb7"
+},
+{
  "file": "google-tasks-app-widget.lua",
  "name": "Google Tasks",
  "description": "AIO wrapper for the official Google Tasks app widget",
  "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "md5sum": "5cac401102ad43ee604828c3ab3340f2"
+ "version": "2.1",
+ "md5sum": "7ee8657a4b66024724b94a29e05cbc25"
 },
 {
  "file": "google-translate-search.lua",
@@ -261,7 +272,7 @@
  "foldable": "false",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
- "md5sum": "e17fa9f7bf1ff199ad9bb89787122e9b"
+ "md5sum": "08a1fe0183d52388bcb54b490d3aad6f"
 },
 {
  "file": "navigate-search.lua",
@@ -456,10 +467,11 @@
 {
  "file": "ticktick-app-widget.lua",
  "name": "TickTick",
- "description": "AIO Launhcer wrapper for official TickTick app widget",
+ "description": "AIO wrapper for the official TickTick app widget",
+ "type": "widget",
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
- "version": "1.0",
- "md5sum": "ca3207ba144c97b5193e53f04ffd764e"
+ "version": "2.0",
+ "md5sum": "8275e654bb8451154e9676f46e5e5cd9"
 },
 {
  "file": "tide-widget.lua",
@@ -487,6 +499,15 @@
  "author": "Evgeny Zobnin (zobnin@gmail.com)",
  "version": "1.0",
  "md5sum": "a5eae1efb711dc2bbc9f77ce90e5930c"
+},
+{
+ "file": "todoist-app-widget.lua",
+ "name": "Todoist",
+ "description": "AIO wrapper for the official Todoist app widget",
+ "type": "widget",
+ "author": "Andey Gavrilov",
+ "version": "2.0",
+ "md5sum": "a562b170ca922a07716f9db892aaf69d"
 },
 {
  "file": "trade-tracker-widget.lua",
