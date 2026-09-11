@@ -397,6 +397,36 @@
  "md5sum": "8de59988c9c4e85378018ebd1145e200"
 },
 {
+ "file": "ru.execbit.aiohealth.apk",
+ "name": "AIO Health Plugin",
+ "type": "widget",
+ "package": "ru.execbit.aiohealthplugin",
+ "version": "1.5",
+ "versionCode": 6,
+ "sha256": "ff064801028b398e20314f35e5726ef99b0581ffb36cf370a3e18312fc1b8c3a",
+ "md5sum": "36a076a6d30c87db2285acc5e3efb91b"
+},
+{
+ "file": "ru.execbit.aiosmscallslog.apk",
+ "name": "AIO SMS & Calls Plugin",
+ "type": "widget",
+ "package": "ru.execbit.aiosmscallslog",
+ "version": "1.4.4",
+ "versionCode": 34,
+ "sha256": "d613eb57fcdfae176b084792b9ea06c09743cafbab188703b7ca3cf74e9496d7",
+ "md5sum": "c3f47851d0957db2551083d8442e2879"
+},
+{
+ "file": "ru.execbit.aiosshbuttons.apk",
+ "name": "AIO SSH Buttons Plugin",
+ "type": "widget",
+ "package": "ru.execbit.aiosshbuttons",
+ "version": "1.2.0",
+ "versionCode": 12,
+ "sha256": "7247d8fb92ddbff548bc1dfb12f6d2b8e2244f7eabcb6264bbec9f5f9e950f68",
+ "md5sum": "a5b85a36133c5df4b9302c143c5857e2"
+},
+{
  "file": "settings-menu.lua",
  "name": "Settings menu",
  "description": "Side menu with AIO settings",
